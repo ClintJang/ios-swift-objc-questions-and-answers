@@ -1,13 +1,13 @@
 # iOS(Swift, Objc) 자주하는 질문과 답변 모음
 
-## 소개
+## **소개**
 iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아보았습니다. 개발 언어는 공부를 하면 빠르게 익힐 수 있지만, 개발 경험은 물어보고 정보를 얻기가 쉽지 않습니다. 도움이 될 수 있도록 정리를 꼼꼼히 해보겠습니다.
 
 잘못 작성된 정보는 열심히 수정 하겠습니다. 언제든지 문제가 있으면, 편하게 수정해주세요. 
 
 지금은 작성을 시작해서 내용이 적지만, 알차게 계속 업데이트 하겠습니다.
 
-## 주요 목차
+## **주요 목차**
 - [개발입문](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EA%B0%9C%EB%B0%9C%EC%9E%85%EB%AC%B8)
 - [appstore](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#appstore)
 - [Xcode](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#xcode)
@@ -18,8 +18,8 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - [Apple 개발: Foundation](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-foundation)
 - [Apple 개발: 그외](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EC%99%B8)
 
-## 질문과 답변
-### 개발입문
+## **질문과 답변**
+### **`개발입문`**
 #### Swift 공부할 때 보면 좋은 책은 어떤 것이 있을 까요?
 - 개인적으로 바이블과 스토리진행을 따라해보는 2가지가 있을 것 같은데요. 
 	- 바이블 쪽이면 : **`스위프트 프로그래밍: Swift4 객체지향, 함수형, 프로토콜 지향 패러다임까지 한 번에! 2판`** 을 검색해보시면 좋은 것 같습니다.
@@ -32,7 +32,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 #### Objective C 공부할 좋은 방법이 있나요?
 - **`아론 힐리가스의 오브젝티브-C 프로그래밍`** 책을 검색해 보세요, 국내에서는 이정도가 좋은 것 같습니다.
 
-### AppStore
+### **`AppStore`**
 #### AppStore에 검수 신청하면 얼마나 걸리나요?
 - [App review Times](http://appreviewtimes.com/) : 현재 검수 시간이 평균적으로 얼마나 걸리는 지 정보를 제공해줘서 대략적인 판단을 할 수 있게 해주는 사이트 입니다.
 - 보통 케바케라서 정확하지 않습니다. 평균적인 시간보다 오래 걸린다면, 검수 진행에 대해 문의를 진행해 해보시면 될 것 같습니다. 
@@ -53,14 +53,14 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	이러한 상황으로는 App Store에 있는 앱의 심각한 버그를 수정하거나 직접 관련된 이벤트와 동시에 앱을 출시해야 하는 경우 등이 해당됩니다.
 	```
 
-### Xcode 
+### **`Xcode`**
 #### Xcode에서 자동완성이 안될 때는?
 - Xcode clean, Xcode 재 실행
 - 재부팅
 - derivedData 를 제거해보기 
 	- xcode deriveddata clean 정도로 구글 검색해보셔요. 
 
-### 시뮬레이터
+### **`시뮬레이터`**
 #### 시뮬레이터 재설정 하는 방법은?
 1. 시뮬레이터 실행 후 왼쪽 상단 메뉴에서 중에서 
 
@@ -69,7 +69,7 @@ Hardware -> Erase All Content and Settings..
 ```
 2. 팝업에서 Erase 를 선택하시면됩니다.
 
-### Reject
+### **`Reject`**
 > 1. 기본적인 검수 진행은 진행되는 사항 중 중요한 정보들은 메일로 받아져 있을 것 입니다. 메일함을 우선 확인해 봅시다 😁<br />
 2. 검수자에 따라 케바케로 검수결과가 달라질 수 있습니다. 항상 통과되던 앱이 이번에 왜 리젝된거지? 하고 당황하지 말고 리젝 내용을 확인해보세요.<br />
 3. [App Store 심사 지침 가이드 라인](https://developer.apple.com/kr/app-store/review/guidelines/)은 계속 변합니다. 아래 내용도 시간이 지나면 달라질 수 있습니다.<br />
@@ -116,7 +116,7 @@ Hardware -> Erase All Content and Settings..
 - 보통 iPhone은 대부분(iPhoneX를 제외) 9:16 비율의 해상도 입니다.
 - 옛날 iPad에서 지금 iPhone용 앱을 실행하면 3:4 비율입니다. 그래서 하단 부분에 버튼을 만드신 것이 안나오거나 UX/UI가 이상하게 나올 수 있습니다. 최소한 iPad에서 버튼을 누를 수 있는 정도의 UI는 리뷰어와 대화가 가능하겠죠.
 
-### 라이브러리 사용
+### **`라이브러리 사용`**
 
 #### 라이브러리 사용을 하려면 어떻게 해야 되나요?
 - [Cocoapods](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md)를 추천드립니다. 
@@ -124,15 +124,15 @@ Hardware -> Erase All Content and Settings..
 	- 처음이라 어떻게 해야될 지 막막하시다면 [하울님의 코딩채널](https://www.youtube.com/playlist?list=PLmdU__e_zPf-uiDtI84Gv9SxFicrbw4KV)을 추천드립니다.
 - Carthage(카르타고) 라는 비슷한 방식도 있습니다. 워크스페이스를 만드는 방식이 아닌 Embbed Framework를 이용하는 방식이죠.
 
-### Apple 개발: UIKit
+### **`Apple 개발: UIKit`**
 #### 멀티 터치 는 최대 갯수가 5개 인가요?
 - iPhone 류에서는 5개 입니다.
 - iPad 류에서는 11개 입니다.
 
-### Apple 개발: Foundation
+### **`Apple 개발: Foundation`**
 
 
-### Apple 개발: 그외 
+### **`Apple 개발: 그외`** 
 
 <br /><br /><br />즐거운 하루 되세요 🙇‍
 <br />
