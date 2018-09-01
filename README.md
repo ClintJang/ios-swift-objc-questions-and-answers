@@ -7,7 +7,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 지금은 작성을 시작해서 내용이 적지만, 알차게 계속 업데이트 하겠습니다.
 
-## <font color="blue">주요 목차</font>
+## 주요 목차
 - [개발입문](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EA%B0%9C%EB%B0%9C%EC%9E%85%EB%AC%B8)
 - [appstore](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#appstore)
 - [Xcode](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#xcode)
@@ -15,14 +15,19 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - [reject](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#reject)
 - [라이브러리 사용](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9)
 
-## <font color="red">질문과 답변</font>
+## 질문과 답변
 ### 개발입문
-#### Swift 개발을 처음 시작할 때 좋은 링크 가 있을 까요?
+#### Swift 공부할 때 보면 좋은 책은 어떤 것이 있을 까요?
+- 개인적으로 바이블과 스토리진행을 따라해보는 2가지가 있을 것 같은데요. 
+	- 바이블 쪽이면 : **`스위프트 프로그래밍: Swift4 객체지향, 함수형, 프로토콜 지향 패러다임까지 한 번에! 2판`** 을 검색해보시면 좋은 것 같습니다.
+	- 스토리 진행이면 : **`꼼꼼한재은씨의 스위프트 실전편`** 이 좋다는 말은 들었었고, 요즘에는 다양한 책들이 있는 것 같습니다. 알게 되는 책들이 있으면 업데이트 하겠습니다. 
+
+#### Swift 개발을 처음 시작할 때 공부하기 좋은 링크 가 있을 까요?
 - 개인적으로 [야곰님의 유투브](https://www.youtube.com/channel/UCkwWWEv3C-3ToeO57r5LCHQ?app=desktop), &nbsp; [야곰님의 동영상 강의](https://www.inflearn.com/course/ios-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/), &nbsp; [인프런 스탠퍼드 강의](https://www.inflearn.com/course/stanford-ios-%ED%95%9C%EA%B8%80%EC%9E%90%EB%A7%89-%EA%B0%95%EC%9D%98/), &nbsp; [프로그래머스의 iOS swift입문](https://programmers.co.kr/learn/courses/4)이 좋다고 생각합니다.
 - [swift 한국어 동영상 강의 링크 모음](https://github.com/ClintJang/awesome-swift-korean-lecture/blob/master/README.md)
 
 #### Objective C 공부할 좋은 방법이 있나요?
-- "아론 힐리가스의 오브젝티브-C 프로그래밍" 책을 검색해 보세요, 국내에서는 이정도가 좋은 것 같습니다.
+- **`아론 힐리가스의 오브젝티브-C 프로그래밍`** 책을 검색해 보세요, 국내에서는 이정도가 좋은 것 같습니다.
 
 ### AppStore
 #### AppStore에 검수 신청하면 얼마나 걸리나요?
