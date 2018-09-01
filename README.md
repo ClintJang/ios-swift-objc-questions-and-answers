@@ -24,7 +24,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 #### Swift 개발을 처음 시작할 때 공부하기 좋은 링크 가 있을 까요?
 - 개인적으로 [야곰님의 유투브](https://www.youtube.com/channel/UCkwWWEv3C-3ToeO57r5LCHQ?app=desktop), &nbsp; [야곰님의 동영상 강의](https://www.inflearn.com/course/ios-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/), &nbsp; [인프런 스탠퍼드 강의](https://www.inflearn.com/course/stanford-ios-%ED%95%9C%EA%B8%80%EC%9E%90%EB%A7%89-%EA%B0%95%EC%9D%98/), &nbsp; [프로그래머스의 iOS swift입문](https://programmers.co.kr/learn/courses/4)이 좋다고 생각합니다.
-- [swift 한국어 동영상 강의 링크 모음](https://github.com/ClintJang/awesome-swift-korean-lecture/blob/master/README.md)
+- [swift 한국어 동영상 강의 링크 모음](https://github.com/ClintJang/awesome-swift-korean-lecture/blob/master/README.md) 은 개인적으로 모아둔 링크입니다.
 
 #### Objective C 공부할 좋은 방법이 있나요?
 - **`아론 힐리가스의 오브젝티브-C 프로그래밍`** 책을 검색해 보세요, 국내에서는 이정도가 좋은 것 같습니다.
@@ -58,6 +58,8 @@ Hardware -> Erase All Content and Settings..
 ### Reject
 > 기본적인 검수 진행은 진행되는 사항 중 중요한 정보들은 메일로 받아져 있을 것 입니다. 메일함을 우선 확인해 봅시다 😁
 
+#### 로그인을 하기위해 정보(전호번호등..)가 필요하다고 리젝 당했습니다.
+- 데모계정(앱을 잘 볼수 있는 계정, 아이디와 패스워드등)을 제공하여 검수자가 로그인을 진행할 수 있게 하면 됩니다. 혹은 그 해당 메일에서 받은 내용을 디테일하게 대응하셔도 됩니다. 로그인 관련 부분이라면 데모계정을 제공하면 문제가 생기지 않을 것입니다.
 
 ### 라이브러리 사용
 
