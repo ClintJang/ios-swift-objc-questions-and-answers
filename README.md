@@ -14,6 +14,9 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - [시뮬레이터](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0)
 - [reject](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#reject)
 - [라이브러리 사용](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9)
+- Apple 개발: UIKit
+- Apple 개발: Foundation
+- Apple 개발: 그외 
 
 ## 질문과 답변
 ### 개발입문
@@ -121,6 +124,9 @@ Hardware -> Erase All Content and Settings..
 	- 처음이라 어떻게 해야될 지 막막하시다면 [하울님의 코딩채널](https://www.youtube.com/playlist?list=PLmdU__e_zPf-uiDtI84Gv9SxFicrbw4KV)을 추천드립니다.
 - Carthage(카르타고) 라는 비슷한 방식도 있습니다. 워크스페이스를 만드는 방식이 아닌 Embbed Framework를 이용하는 방식이죠.
 
+### Apple 개발: UIKit
+### Apple 개발: Foundation
+### Apple 개발: 그외 
 
 <br /><br /><br />즐거운 하루 되세요 🙇‍
 <br />
