@@ -14,7 +14,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - [시뮬레이터](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0)
 - [reject](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#reject)
 - [라이브러리 사용](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9)
-- 디자인
+- [디자인](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#%EB%94%94%EC%9E%90%EC%9D%B8)
 - [Apple 개발: UIKit](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-uikit)
 - [Apple 개발: Foundation](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-foundation)
 - [Apple 개발: 그외](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EC%99%B8)
@@ -148,6 +148,7 @@ Hardware -> Erase All Content and Settings..
 - iOS에서는 dp를 사용하지 않습니다. point라는 개념을 사용합니다. 
 - [제드님의 블러그 링크](https://zeddios.tistory.com/6)를 들어가 보세요. 제일 설명이 잘 되어있는 것 같습니다.
 - [제플린](https://zeplin.io/) 이라는 협업 툴로 개발을 많이 합니다. iOS용으로 제공받으면 편하게 개발 하실 수 있습니다.
+- 유지보수 관점에서 디자이너 분들과 협의하면 좋은 결과를 도출 할 수 있을 것입니다. 파이팅!
 
 
 ### **`Apple 개발: UIKit`**
