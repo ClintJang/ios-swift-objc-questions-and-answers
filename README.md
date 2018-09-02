@@ -33,7 +33,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - **`아론 힐리가스의 오브젝티브-C 프로그래밍`** 책을 검색해 보세요, 국내에서는 이정도가 좋은 것 같습니다.
 
 #### 처음 개발에 입문 했는 데, 좋은 커뮤니티가 있을까요?
-- 스위프트 관련 커뮤니티 그룹은 [스위프트 한국 개발자 그룹(페이스북)](https://www.facebook.com/groups/swiftkor/), [맥부기(네이버 카페)](https://cafe.naver.com/mcbugi) 두가지 정도를 알고 있고, 오픈된 대화방은 카카오톡 [iOS 오픈채팅방(iOS Developers KR)](https://open.kakao.com/o/gyLape), [Slack swiftkorea](http://slack.swiftkorea.org/) 정도가 있는 것 같습니다. iOS 개발자는 소수이니 커뮤니티에서 함께 개발을 진행하며 어려운 내용은 공유하고 도움도 주고 받고 하면 개발일을 더 즐겁게 할 수 있는 것 같습니다.
+- 스위프트 관련 커뮤니티 그룹은 [스위프트 한국 개발자 그룹(페이스북)](https://www.facebook.com/groups/swiftkor/), [맥부기(네이버 카페)](https://cafe.naver.com/mcbugi) 두가지 정도를 알고 있고, 오픈된 대화방은 [카카오톡 iOS 오픈채팅방(iOS Developers KR)](https://open.kakao.com/o/gyLape), [Slack swiftkorea](http://slack.swiftkorea.org/), [카카오톡 RxSwift 오픈채팅방](https://open.kakao.com/o/gl2YZjq) 정도가 있는 것 같습니다. iOS 개발자는 소수이니 커뮤니티에서 함께 개발을 진행하며 어려운 내용은 공유하고 도움도 주고 받고 하면 개발일을 더 즐겁게 할 수 있는 것 같습니다.
 
 ### **`AppStore`**
 #### AppStore에 검수 신청하면 얼마나 걸리나요?
