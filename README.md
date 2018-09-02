@@ -168,6 +168,13 @@ Hardware -> Erase All Content and Settings..
 
 
 ### **`design pattern`**
+#### 아키텍쳐 패턴으로 공부할만한 좋은 셈플 링크가 있을까요?
+- 제가 알고있는 셈플 링크입니다. 좋은 링크 알게 되는 데로 업데이트 더 할께요.
+- [giftbot 님의 iOS-Architecture-Sample](https://github.com/giftbott/iOS-Architecture-Sample) : MVC, MVP, MVVM, VIPER 👍
+- [마기님의 MVP, RxTodo](https://github.com/magi82/IOS_MVP_Sample_RxTodo)
+- [마기님의 MVVM](https://github.com/magi82/RxMVVMExample)
+- [저의 MVVM 샘플](https://github.com/ClintJang/sample-swift-mvvm) : 언젠가 완성을..
+
 
 #### MVC 패턴이 무엇인가요?
 ```
