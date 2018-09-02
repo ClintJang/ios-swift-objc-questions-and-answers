@@ -14,6 +14,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - [시뮬레이터](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0)
 - [reject](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#reject)
 - [라이브러리 사용](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%82%AC%EC%9A%A9)
+- 디자인
 - [Apple 개발: UIKit](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-uikit)
 - [Apple 개발: Foundation](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-foundation)
 - [Apple 개발: 그외](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EC%99%B8)
@@ -141,6 +142,13 @@ Hardware -> Erase All Content and Settings..
 	- [Cocoapods 사용 팁](https://github.com/ClintJang/cocoapods-tips/blob/master/README.md) 링크입니다.
 	- 처음이라 어떻게 해야될 지 막막하시다면 [하울님의 코딩채널](https://www.youtube.com/playlist?list=PLmdU__e_zPf-uiDtI84Gv9SxFicrbw4KV)을 추천드립니다.
 - Carthage(카르타고) 라는 비슷한 방식도 있습니다. 워크스페이스를 만드는 방식이 아닌 Embbed Framework를 이용하는 방식이죠.
+
+### **`디자인`**
+#### 안드로이드는 UI 개발 중 크기 선택은 dp로 작업하는 데 iOS에서는 dp를 지원하나요? 현업에서는 보통 디자이너에게 요구할때 어떻게 요구를 하나요?
+- iOS에서는 dp를 사용하지 않습니다. point라는 개념을 사용합니다. 
+- [제드님의 블러그 링크](https://zeddios.tistory.com/6)를 들어가 보세요. 제일 설명이 잘 되어있는 것 같습니다.
+- [제플린](https://zeplin.io/) 이라는 협업 툴로 개발을 많이 합니다. iOS용으로 제공받으면 편하게 개발 하실 수 있습니다.
+
 
 ### **`Apple 개발: UIKit`**
 #### 멀티 터치 는 최대 갯수가 5개 인가요?
