@@ -17,6 +17,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - [Apple 개발: UIKit](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-uikit)
 - [Apple 개발: Foundation](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-foundation)
 - [Apple 개발: 그외](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#apple-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EC%99%B8)
+- [design pattern](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#design-pattern)
 - [RxSwift](https://github.com/ClintJang/ios-swift-objc-questions-and-answers#rxswift)
 
 ## **질문과 답변**
@@ -86,9 +87,10 @@ Hardware -> Erase All Content and Settings..
 2. 팝업에서 Erase 를 선택하시면됩니다.
 
 ### **`Reject`**
-> 1. 기본적인 검수 진행은 진행되는 사항 중 중요한 정보들은 메일로 받아져 있을 것 입니다. 메일함을 우선 확인해 봅시다 😁<br />
-2. 검수자에 따라 케바케로 검수결과가 달라질 수 있습니다. 항상 통과되던 앱이 이번에 왜 리젝된거지? 하고 당황하지 말고 리젝 내용을 확인해보세요.<br />
-3. [App Store 심사 지침 가이드 라인](https://developer.apple.com/kr/app-store/review/guidelines/)은 계속 변합니다. 아래 내용도 시간이 지나면 달라질 수 있습니다.<br />
+>1. 기본적인 검수 진행은 진행되는 사항 중 중요한 정보들은 메일로 받아져 있을 것 입니다. 메일함을 우선 확인해 봅시다 😁<br />
+>2. 검수자에 따라 케바케로 검수결과가 달라질 수 있습니다. 항상 통과되던 앱이 이번에 왜 리젝된거지? 하고 당황하지 말고 리젝 내용을 확인해보세요.<br />
+>3. [App Store 심사 지침 가이드 라인](https://developer.apple.com/kr/app-store/review/guidelines/)은 계속 변합니다. 아래 내용도 시간이 지나면 달라질 수 있습니다.<br />
+
 
 #### 로그인을 하기위해 정보(전호번호등..)가 필요하다고 리젝 당했습니다. 😭
 - 데모계정(앱을 잘 볼수 있는 계정, 아이디와 패스워드등)을 제공하여 검수자가 로그인을 진행할 수 있게 하면 됩니다. 혹은 그 해당 메일에서 받은 내용을 디테일하게 대응하셔도 됩니다. 로그인 관련 부분이라면 데모계정을 제공하면 문제가 생기지 않을 것입니다.
@@ -149,10 +151,14 @@ Hardware -> Erase All Content and Settings..
 
 
 ### **`Apple 개발: 그외`** 
+
 #### delegate 는 어떻게 사용하는 것인가요?
 - [마기님의 블로그의 delegate 설명](https://magi82.github.io/ios-delegate/)이 좋은 것 같습니다. 여기를 봐보셔요.
 - 위의 블로그 설명에 개인적으로는 제일 마음에 들었습니다. 위임자의 의미를 가지고 있습니다. 필요한 상황을 정의하고 대신 해달라고 요청하면 됩니다. 필요한 상황에 사용하면 좋습니다. 
 - 저는 데이터를 공유하거나 기능처리 요청을 하는 여러 방법 중 가능하면 delegate 패턴부터 고민하고 이게 가용한 상황이 아니라면 다른 방법을 찾아봅니다.
+
+
+### **`design pattern`**
 
 #### MVC 패턴이 무엇인가요?
 ```
