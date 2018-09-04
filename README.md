@@ -73,6 +73,10 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	최대 24시간이 소요될 수 있음에 유의하십시오.
 	```
 	
+#### appstore에서 앱 다운로드 할때 단말별로 앱사이즈가 다른가요?? 이미지 해상도라던지.. 차이때문에, 만약에 다르다면 영향 받는 부분이 어디일까요?
+- App Thinning으로 검색해보시면 나옵니다. Bitcode, On-Demand Resources (ODRs), Slicing 차이로 있습니다.
+- [참고한 링크](https://medium.com/@vikaskore/bitcode-slicing-odrs-app-thinning-7c4b294ddec3)
+
 ### **`Xcode`**
 #### Xcode에서 자동완성이 안될 때는?
 - Xcode clean, Xcode 재 실행
