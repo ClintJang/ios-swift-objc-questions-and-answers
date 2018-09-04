@@ -35,6 +35,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 #### Objective C 공부할 좋은 방법이 있나요?
 - **`아론 힐리가스의 오브젝티브-C 프로그래밍`** 책을 검색해 보세요, 국내에서는 이정도가 좋은 것 같습니다.
+- 오브젝티브-C 한국어 동영상강좌는 [T아카데미 Objective C](https://www.youtube.com/watch?v=dzv8L5lKsuk&feature=youtu.be) 강좌 정도 인 것 같습니다.
 
 #### 처음 개발에 입문 했는 데, 좋은 커뮤니티가 있을까요?
 - 스위프트 관련 커뮤니티 그룹은 [스위프트 한국 개발자 그룹(페이스북)](https://www.facebook.com/groups/swiftkor/), [맥부기(네이버 카페)](https://cafe.naver.com/mcbugi) 두가지 정도를 알고 있습니다.
