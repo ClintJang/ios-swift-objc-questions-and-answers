@@ -26,7 +26,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 #### Swift 공부할 때 보면 좋은 책은 어떤 것이 있을 까요?
 - 개인적으로 바이블과 스토리진행을 따라해보는 2가지가 있을 것 같은데요. 
 	- 바이블 쪽이면 : **`스위프트 프로그래밍: Swift4 객체지향, 함수형, 프로토콜 지향 패러다임까지 한 번에! 2판`** 을 검색해보시면 좋은 것 같습니다.
-	- 스토리 진행이면 : **`꼼꼼한재은씨의 스위프트 실전편`** 이 좋다는 말은 들었었고, 요즘에는 다양한 책들이 있는 것 같습니다. 알게 되는 책들이 있으면 업데이트 하겠습니다. 
+	- 스토리 진행이면 : **`꼼꼼한재은씨의 스위프트 실전편`**, **[`Do it! 스위프트로 아이폰 앱 만들기 (입문) [개정 2판]`](https://github.com/doitswift)** 이 좋다는 말은 들었었고, 요즘에는 다양한 책들이 있는 것 같습니다. 알게 되는 책들이 있으면 업데이트 하겠습니다. 
 
 #### Swift 개발을 처음 시작할 때 공부하기 좋은 링크 가 있을 까요?
 - 개인적으로 [야곰님의 유투브](https://www.youtube.com/channel/UCkwWWEv3C-3ToeO57r5LCHQ?app=desktop), &nbsp; [야곰님의 동영상 강의](https://www.inflearn.com/course/ios-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/), &nbsp; [인프런 스탠퍼드 강의](https://www.inflearn.com/course/stanford-ios-%ED%95%9C%EA%B8%80%EC%9E%90%EB%A7%89-%EA%B0%95%EC%9D%98/), &nbsp; [프로그래머스의 iOS swift입문](https://programmers.co.kr/learn/courses/4)이 좋다고 생각합니다.
