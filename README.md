@@ -366,11 +366,12 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
   	<td><img width="211" height="352" src="/Image/AppStoreOSMeasured_20170220.png"></img></td>
   </tr>
 </table>
+
 - iOS 사용자는 업데이트를 빠르게 수용합니다. Earlier 는 테스트 장비나 오래되서 방치된 단말이 많이 포함되어있을 것입니다. 빠르게 업데이트해서 사용하니 최신 OS에 근접한 OS를 하셔도 괜찮을 것입니다. 그래야 유지보수 이슈에 들어가는 비용도 줄어들고, 신기술을 적용하기 좋습니다. 그만큼 사용시 문제점(버그)도 줄어들죠.
 
-<br />
+<br /><br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
 
-<br /><br /><br />즐거운 하루 되세요 🙇‍
+<br /><br />즐거운 하루 되세요 🙇‍
 <br />
