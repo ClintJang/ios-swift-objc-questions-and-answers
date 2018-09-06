@@ -274,14 +274,16 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 #### iOS 배포 최소 버전에 대해 고민중입니다. iOS OS버전을 사용하는 통계 정보를 알 수 있는 정보나 링크가 있을까요?
 - [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
 
-<table style="width: 453">
+<table>
   <tr>
-	<th>2018년 9월 3일 기준</th> 
-	<th>2017년 12월 4일 기준</th>
+	<th>2018년 09월 03일</th> 
+	<th>2017년 12월 04일</th>
+	<th>2017년 02월 20일</th>
   </tr>
   <tr>
   	<td><img width="236" height="321" src="/Image/AppStoreOSMeasured_20180903.png"></img></td>
-  	<td><img width="217" height="326" src="/Image/AppStoreOSMeasured_20181204.png"></img></td>
+  	<td><img width="217" height="326" src="/Image/AppStoreOSMeasured_20171204.png"></img></td>
+  	<td><img width="211" height="352" src="/Image/AppStoreOSMeasured_20170220.png"></img></td>
   </tr>
 </table>
 - iOS 사용자는 업데이트를 빠르게 수용합니다. Earlier 는 테스트 장비나 오래되서 방치된 단말이 많이 포함되어있을 것입니다. 빠르게 업데이트해서 사용하니 최신 OS에 근접한 OS를 하셔도 괜찮을 것입니다. 그래야 유지보수 이슈에 들어가는 비용도 줄어들고, 신기술을 적용하기 좋습니다. 그만큼 사용시 문제점(버그)도 줄어들죠.
