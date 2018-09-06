@@ -358,11 +358,17 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
   <tr>
 	<th>2018년 09월 03일</th> 
 	<th>2017년 12월 04일</th>
-	<th>2017년 02월 20일</th>
   </tr>
   <tr>
   	<td><img width="236" height="321" src="/Image/AppStoreOSMeasured_20180903.png"></img></td>
   	<td><img width="217" height="326" src="/Image/AppStoreOSMeasured_20171204.png"></img></td>
+  </tr>
+  <tr>
+	<th>2017년 07월 28일</th>
+	<th>2017년 02월 20일</th>
+  </tr>
+    <tr>
+    <td><img width="211" height="352" src="/Image/AppStoreOSMeasured_20170728.png"></img></td>
   	<td><img width="211" height="352" src="/Image/AppStoreOSMeasured_20170220.png"></img></td>
   </tr>
 </table>
