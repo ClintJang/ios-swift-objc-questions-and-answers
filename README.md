@@ -7,7 +7,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 지금은 작성을 시작해서 내용이 적지만, 알차게 계속 업데이트 하겠습니다.
 
-## **주요 목차**
+## **목차**
 - [1. 개발입문](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#1-%EA%B0%9C%EB%B0%9C%EC%9E%85%EB%AC%B8)
 	- [Swift 공부할 때 보면 좋은 책은 어떤 것이 있을 까요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#swift-%EA%B3%B5%EB%B6%80%ED%95%A0-%EB%95%8C-%EB%B3%B4%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EC%B1%85%EC%9D%80-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%B4-%EC%9E%88%EC%9D%84-%EA%B9%8C%EC%9A%94)
 	- [Swift 개발을 처음 시작할 때 공부하기 좋은 링크 가 있을 까요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#swift-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%A0-%EB%95%8C-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0-%EC%A2%8B%EC%9D%80-%EB%A7%81%ED%81%AC-%EA%B0%80-%EC%9E%88%EC%9D%84-%EA%B9%8C%EC%9A%94)
@@ -77,6 +77,12 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - 오픈된 대화방은 [카카오톡 iOS 오픈채팅방(iOS Developers KR)](https://open.kakao.com/o/gyLape), [Slack swiftkorea](http://slack.swiftkorea.org/), [카카오톡 RxSwift 오픈채팅방](https://open.kakao.com/o/gl2YZjq) 정도가 있는 것 같습니다. 
 - iOS 개발자는 소수이니 커뮤니티에서 함께 개발을 진행하며, 어려운 내용은 공유하고 도움도 주고 받고 하면 개발일을 더 즐겁게 할 수 있는 것 같습니다.
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
+
 ### **`2. AppStore`**
 
 #### 애플 개발자 전화 지원은 몇번인가요? 전화가 가능한가요?
@@ -126,12 +132,24 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - App Thinning으로 검색해보시면 나옵니다. Bitcode, On-Demand Resources (ODRs), Slicing 차이로 있습니다.
 - [참고한 링크](https://medium.com/@vikaskore/bitcode-slicing-odrs-app-thinning-7c4b294ddec3)
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
+
 ### **`3. Xcode`**
 #### Xcode에서 자동완성이 안될 때는?
 - Xcode clean, Xcode 재 실행
 - 재부팅
 - derivedData 를 제거해보기 
 	- xcode deriveddata clean 정도로 구글 검색해보셔요. 
+
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
 
 ### **`4. 시뮬레이터`**
 #### 시뮬레이터 재설정 하는 방법은?
@@ -141,6 +159,12 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 Hardware -> Erase All Content and Settings..  
 ```
 2. 팝업에서 Erase 를 선택하시면됩니다.
+
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
 
 ### **`5. Reject`**
 >1. 기본적인 검수 진행은 진행되는 사항 중 중요한 정보들은 메일로 받아져 있을 것 입니다. 메일함을 우선 확인해 봅시다 😁<br />
@@ -190,6 +214,12 @@ Hardware -> Erase All Content and Settings..
 - 보통 iPhone은 대부분(iPhoneX를 제외) 9:16 비율의 해상도 입니다.
 - 옛날 iPad에서 지금 iPhone용 앱을 실행하면 3:4 비율입니다. 그래서 하단 부분에 버튼을 만드신 것이 안나오거나 UX/UI가 이상하게 나올 수 있습니다. 최소한 iPad에서 버튼을 누를 수 있는 정도의 UI는 리뷰어와 대화가 가능하겠죠.
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
+
 ### **`6. 라이브러리 사용`**
 
 #### 라이브러리 사용을 하려면 어떻게 해야 되나요?
@@ -198,6 +228,12 @@ Hardware -> Erase All Content and Settings..
 	- 처음이라 어떻게 해야될 지 막막하시다면 [하울님의 코딩채널](https://www.youtube.com/playlist?list=PLmdU__e_zPf-uiDtI84Gv9SxFicrbw4KV)을 추천드립니다.
 - Carthage(카르타고) 라는 비슷한 방식도 있습니다. 워크스페이스를 만드는 방식이 아닌 Embbed Framework를 이용하는 방식이죠.
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
+
 ### **`7. 디자인`**
 #### 안드로이드는 UI 개발 중 크기 선택은 dp로 작업하는 데 iOS에서는 dp를 지원하나요? 현업에서는 보통 디자이너에게 요구할때 어떻게 요구를 하나요?
 - iOS에서는 dp를 사용하지 않습니다. point라는 개념을 사용합니다. 
@@ -205,14 +241,30 @@ Hardware -> Erase All Content and Settings..
 - [제플린](https://zeplin.io/) 이라는 협업 툴로 개발을 많이 합니다. iOS용으로 제공받으면 편하게 개발 하실 수 있습니다.
 - 유지보수 관점에서 디자이너 분들과 협의하면 좋은 결과를 도출 할 수 있을 것입니다. 파이팅!
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
 
 ### **`8. Apple 개발: UIKit`**
 #### 멀티 터치 는 최대 갯수가 5개 인가요?
 - iPhone 류에서는 5개 입니다.
 - iPad 류에서는 11개 입니다.
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
+
 ### **`9. Apple 개발: Foundation`**
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
 
 ### **`10. Apple 개발: 그외`** 
 
@@ -226,6 +278,11 @@ Hardware -> Erase All Content and Settings..
 - Nib : Next Interface Builder
 - Xib : Xcode Interface Builder
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
 
 ### **`11. design pattern`**
 #### 아키텍쳐 패턴으로 공부할만한 좋은 셈플 링크가 있을까요?
@@ -257,6 +314,11 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 ```
 - [참조한 링크](https://medium.com/@jang.wangsu/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-mvc-%ED%8C%A8%ED%84%B4%EC%9D%B4%EB%9E%80-1d74fac6e256)
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
 
 ### **`12. RxSwift`** 
 #### RxSwift가 무엇인가요?
@@ -265,6 +327,12 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 	- 1편, [곰튀김님 - Functional Reactive Programming 패러다임](https://www.youtube.com/watch?v=cXi_CmZuBgg&feature=youtu.be)
 	- 2편, [곰튀김님 - Functional Programming이 뭐하는 건가요? ](https://www.youtube.com/watch?v=HZkqMiwT-5A&feature=youtu.be)
 - [마기님 블로그 RxSwift 1편](https://magi82.github.io/ios-rxswift-01/)을 봐보셔요. 여기 설명도 좋습니다. **계속 연재해주세요.!**
+
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
 
 ### **`13. 기타`**
 #### 애플 사이트나 시스템 운영 상태의 에러 유무는 어떻게 알 수가 있나요?
@@ -288,6 +356,8 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 </table>
 - iOS 사용자는 업데이트를 빠르게 수용합니다. Earlier 는 테스트 장비나 오래되서 방치된 단말이 많이 포함되어있을 것입니다. 빠르게 업데이트해서 사용하니 최신 OS에 근접한 OS를 하셔도 괜찮을 것입니다. 그래야 유지보수 이슈에 들어가는 비용도 줄어들고, 신기술을 적용하기 좋습니다. 그만큼 사용시 문제점(버그)도 줄어들죠.
 
+<br />
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
 
 <br /><br /><br />즐거운 하루 되세요 🙇‍
 <br />
