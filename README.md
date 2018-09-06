@@ -259,6 +259,15 @@ Hardware -> Erase All Content and Settings..
 - iPhone 류에서는 5개 입니다.
 - iPad 류에서는 11개 입니다.
 
+#### 상태바를 히든 시키거나 나타내고 싶은 데, 어떻게 해야되나요?
+- [statusBarHidden](https://developer.apple.com/documentation/uikit/uiapplication/1622982-statusbarhidden) 인스턴스 프로퍼티는 9.0에서 Deprecated 되었습니다.
+- 앱 시작시에(런치시) info.plist에서 숨길지 여부를 설정할 수 있고..
+	- Status bar style : [UIStatusBarStyle](https://developer.apple.com/documentation/uikit/uistatusbarstyle)
+	- Status bar is initially hidden : NO/YES
+	- View controller-based status bar appearance :NO
+- UIViewController에서 [prefersStatusBarHidden](https://developer.apple.com/documentation/uikit/uiviewcontroller/1621440-prefersstatusbarhidden) 처리를 해서 보여줄 지 여부를 설정할 수 있습니다.
+- 더불어 필요시 변경시키고 싶다면 [setNeedsStatusBarAppearanceUpdate](https://developer.apple.com/documentation/uikit/uiviewcontroller/1621354-setneedsstatusbarappearanceupdat) 를 호출해 주면, 변경이 될 것 입니다.
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
