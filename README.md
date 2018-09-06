@@ -52,6 +52,9 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	- [RxSwift가 무엇인가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#rxswift%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
 - [13. 기타](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#13-%EA%B8%B0%ED%83%80)
 	- [애플 사이트나 시스템 운영 상태의 에러 유무는 어떻게 알 수가 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%95%A0%ED%94%8C-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%82%98-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%9A%B4%EC%98%81-%EC%83%81%ED%83%9C%EC%9D%98-%EC%97%90%EB%9F%AC-%EC%9C%A0%EB%AC%B4%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%95%8C-%EC%88%98%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94)
+	- [iOS 배포 최소 버전에 대해 고민중입니다. iOS OS버전을 사용하는 통계 정보를 알 수 있는 정보나 링크가 있을까요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#ios-%EB%B0%B0%ED%8F%AC-%EC%B5%9C%EC%86%8C-%EB%B2%84%EC%A0%84%EC%97%90-%EB%8C%80%ED%95%B4-%EA%B3%A0%EB%AF%BC%EC%A4%91%EC%9E%85%EB%8B%88%EB%8B%A4-ios-os%EB%B2%84%EC%A0%84%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%ED%86%B5%EA%B3%84-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EC%95%8C-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%A0%95%EB%B3%B4%EB%82%98-%EB%A7%81%ED%81%AC%EA%B0%80-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94)
+	
+<br />
 
 ## **질문과 답변**
 ### **`1. 개발입문`**
@@ -271,14 +274,17 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 #### iOS 배포 최소 버전에 대해 고민중입니다. iOS OS버전을 사용하는 통계 정보를 알 수 있는 정보나 링크가 있을까요?
 - [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
 
-<table style="width: 236">
+<table style="width: 453">
   <tr>
 	<th>2018년 9월 3일 기준</th> 
+	<th>2017년 12월 4일 기준</th>
   </tr>
   <tr>
   	<td><img width="236" height="321" src="/Image/AppStoreOSMeasured_20180903.png"></img></td>
+  	<td><img width="217" height="326" src="/Image/AppStoreOSMeasured_20181204.png"></img></td>
   </tr>
 </table>
+- iOS 사용자는 업데이트를 빠르게 수용합니다. Earlier 는 테스트 장비나 오래되서 방치된 단말이 많이 포함되어있을 것입니다. 빠르게 업데이트해서 사용하니 최신 OS에 근접한 OS를 하셔도 괜찮을 것입니다. 그래야 유지보수 이슈에 들어가는 비용도 줄어들고, 신기술을 적용하기 좋습니다. 그만큼 사용시 문제점(버그)도 줄어들죠.
 
 
 <br /><br /><br />즐거운 하루 되세요 🙇‍
