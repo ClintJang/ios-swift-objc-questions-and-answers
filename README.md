@@ -268,5 +268,18 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 - 여기 링크에 들어가보시면 됩니다. 
 - [System Status 링크](https://www.apple.com/support/systemstatus/)
 
+#### iOS 배포 최소 버전에 대해 고민중입니다. iOS OS버전을 사용하는 통계 정보를 알 수 있는 정보나 링크가 있을까요?
+- [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
+
+<table style="width: 236">
+  <tr>
+	<th>2018년 9월 3일 기준</th> 
+  </tr>
+  <tr>
+  	<td><img width="236" height="321" src="/Image/AppStoreOSMeasured_20180903.png"></img></td>
+  </tr>
+</table>
+
+
 <br /><br /><br />즐거운 하루 되세요 🙇‍
 <br />
