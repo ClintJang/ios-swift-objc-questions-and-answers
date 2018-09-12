@@ -299,6 +299,21 @@ Hardware -> Erase All Content and Settings..
 
 <br />
 
+#### 푸시로 기본적으로 보내는 것 메시지 외에 다른 정보들을 보내고 싶은 데, 전송 시에 많은 정보를 담아 보낼 수 있나요?
+- "ios push payload size" 정도로 구글링해보시면, 관련 정보를 얻을 수 있을 것 같습니다. 
+- 예전에는 256 bytes 인 시절도 있었지만, 과거 이야기 이죠..
+- [CreatingtheNotificationPayload 애플문서](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)
+- [stackoverflow 관련글](https://stackoverflow.com/questions/26233730/apn-apple-push-notification-payload-size-limit) 
+
+```
+As per the updated Apple docs the size is 4KB.
+
+For regular remote notifications, the maximum size is 4KB (4096 bytes)
+For Voice over Internet Protocol (VoIP) notifications, the maximum size is 5KB (5120 bytes) NOTE
+```
+
+<br />
+
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
 
 <br />
