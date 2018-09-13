@@ -405,6 +405,11 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 - 최신 OS가 높은 점유율을 차지 하고 있고, 이전 OS까지 합하면 90%가 넘을 것 입니다. 그래서 보통 반영한다면, 현재와 이전 정보까지를 포함해서 배포하면 좋을 것 같습니다.
 - iOS 사용자는 업데이트를 빠르게 수용합니다. Earlier 는 테스트 장비나 오래되서 방치된 단말이 많이 포함되어있을 것입니다. 빠르게 업데이트해서 사용하니 최신 OS에 근접한 OS를 하셔도 괜찮을 것입니다. 그래야 유지보수 이슈에 들어가는 비용도 줄어들고, 신기술을 적용하기 좋습니다. 그만큼 사용시 문제점(버그)도 줄어들죠.
 
+
+## 이전 OS,Xcode 나 최신 OS, Xcode를 받으려면 어디서 받을 수 있을까요?
+- [download 링크](https://developer.apple.com/download/) : 다운로드 링크 입니다. 최신 다운로드 정보를 알 수 있습니다.
+- [download more 링크](https://developer.apple.com/download/more/) : 지나간 다운로드 정보를 찾을 수 있습니다.
+
 <br /><br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
