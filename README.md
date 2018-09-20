@@ -280,6 +280,19 @@ Hardware -> Erase All Content and Settings..
 
 ### **`9. Apple 개발: Foundation`**
 
+#### App-Prefs:root 와 Prefs:root 는 어떻게 사용하는 것인가요? 사용 가능한가요?
+- 이제 설정에서 자기 앱의 설정말고 다른 건 못 엽니다. (iOS 11 부터로 알고 있습니다.)
+- [UIApplicationOpenSettingsURLString](https://developer.apple.com/documentation/uikit/uiapplicationopensettingsurlstring?language=objc) 를 이용하시면 됩니다.
+- 리젝 사유가 될 수 있습니다 : [review guidelines 2.5 Software Requirements](https://developer.apple.com/app-store/review/guidelines/#software-requirements) 의 2.5.1. 의 내용을 보면 애플에서 제공하는 공식적인 최신 API를 사용하라고 합니다. 
+
+	```
+	2.5.1 앱은 공용 API만 사용할 수 있으며 현재 제공되는 OS에서 실행해야 합니다. 공용 API에 대해 자세히 알아보십시오. 애플리케이션을 최신 상태로 유지하고 향후 OS 버전에서 더 이상 지원되지 않는 사용되지 않는 기능, 프레임워크 또는 기술을 단계적으로 폐기해야 합니다. 앱은 API 및 프레임워크를 의도한 목적에 사용하고 앱 설명에 통합을 표시해야 한다. 예를 들어 HomeKit 프레임워크는 가정용 자동화 서비스를 제공해야 하며 HealthKit는 건강 및 피트니스 목적으로 사용되며 Health 앱과 통합되어야 합니다.
+	```
+
+- iOS 10 에서는 App-Prefs?, iOS 10 미만에서는 Prefs? 는 조건을 걸면 가능할 것입니다. (가물가물하네요. 구지.. 하위버전에서 꼬옥? 사용하시려면 검색 부탁드립니다.)
+- 참고 링크 01 : [리젝된 경험 링크](https://qiita.com/_mogaming/items/cf1b2b75e4be7041c011)
+
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
