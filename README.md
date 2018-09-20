@@ -42,8 +42,8 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - [8. Apple 개발: UIKit](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#8-apple-%EA%B0%9C%EB%B0%9C-uikit)
 	- [멀티 터치 는 최대 갯수가 5개 인가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%A9%80%ED%8B%B0-%ED%84%B0%EC%B9%98-%EB%8A%94-%EC%B5%9C%EB%8C%80-%EA%B0%AF%EC%88%98%EA%B0%80-5%EA%B0%9C-%EC%9D%B8%EA%B0%80%EC%9A%94)
 	- [상태바를 히든 시키거나 나타내고 싶은 데, 어떻게 해야되나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%83%81%ED%83%9C%EB%B0%94%EB%A5%BC-%ED%9E%88%EB%93%A0-%EC%8B%9C%ED%82%A4%EA%B1%B0%EB%82%98-%EB%82%98%ED%83%80%EB%82%B4%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EB%8D%B0-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC%EB%90%98%EB%82%98%EC%9A%94)
-- [9. Apple 개발: Foundation](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#9-apple-%EA%B0%9C%EB%B0%9C-foundation)
 	- [App-Prefs:root 와 Prefs:root 는 어떻게 사용하는 것인가요? 사용 가능한가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#app-prefsroot-%EC%99%80-prefsroot-%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94-%EC%82%AC%EC%9A%A9-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80%EC%9A%94)
+- [9. Apple 개발: Foundation](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#9-apple-%EA%B0%9C%EB%B0%9C-foundation)
 - [10. Apple 개발: 그외](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#10-apple-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EC%99%B8)
 	- [delegate 는 어떻게 사용하는 것인가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#delegate-%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94)
 	- [여러 컨트롤러에서 보여줘야하는 뷰가 있는데 재사용성을 높일수있는 방안이 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%97%AC%EB%9F%AC-%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%97%90%EC%84%9C-%EB%B3%B4%EC%97%AC%EC%A4%98%EC%95%BC%ED%95%98%EB%8A%94-%EB%B7%B0%EA%B0%80-%EC%9E%88%EB%8A%94%EB%8D%B0-%EC%9E%AC%EC%82%AC%EC%9A%A9%EC%84%B1%EC%9D%84-%EB%86%92%EC%9D%BC%EC%88%98%EC%9E%88%EB%8A%94-%EB%B0%A9%EC%95%88%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
@@ -272,14 +272,6 @@ Hardware -> Erase All Content and Settings..
 - UIViewController에서 [prefersStatusBarHidden](https://developer.apple.com/documentation/uikit/uiviewcontroller/1621440-prefersstatusbarhidden) 처리를 해서 보여줄 지 여부를 설정할 수 있습니다.
 - 더불어 필요시 변경시키고 싶다면 [setNeedsStatusBarAppearanceUpdate](https://developer.apple.com/documentation/uikit/uiviewcontroller/1621354-setneedsstatusbarappearanceupdat) 를 호출해 주면, 변경이 될 것 입니다.
 
-<br />
-
-[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
-
-<br />
-<br />
-
-### **`9. Apple 개발: Foundation`**
 
 #### App-Prefs:root 와 Prefs:root 는 어떻게 사용하는 것인가요? 사용 가능한가요?
 - 이제 설정에서 자기 앱의 설정말고 다른 건 못 엽니다. (iOS 11 부터로 알고 있습니다.)
@@ -297,6 +289,14 @@ Hardware -> Erase All Content and Settings..
 - iOS 10 에서는 App-Prefs?, iOS 10 미만에서는 Prefs? 는 조건을 걸면 가능할 것입니다. (가물가물하네요. 구지.. 하위버전에서 꼬옥? 사용하시려면 검색 부탁드립니다.)
 - 참고 링크 01 : [리젝된 경험 링크](https://qiita.com/_mogaming/items/cf1b2b75e4be7041c011)
 
+<br />
+
+[Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
+<br />
+
+### **`9. Apple 개발: Foundation`**
 
 <br />
 
