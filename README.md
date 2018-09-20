@@ -43,6 +43,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	- [멀티 터치 는 최대 갯수가 5개 인가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%A9%80%ED%8B%B0-%ED%84%B0%EC%B9%98-%EB%8A%94-%EC%B5%9C%EB%8C%80-%EA%B0%AF%EC%88%98%EA%B0%80-5%EA%B0%9C-%EC%9D%B8%EA%B0%80%EC%9A%94)
 	- [상태바를 히든 시키거나 나타내고 싶은 데, 어떻게 해야되나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%83%81%ED%83%9C%EB%B0%94%EB%A5%BC-%ED%9E%88%EB%93%A0-%EC%8B%9C%ED%82%A4%EA%B1%B0%EB%82%98-%EB%82%98%ED%83%80%EB%82%B4%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EB%8D%B0-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC%EB%90%98%EB%82%98%EC%9A%94)
 - [9. Apple 개발: Foundation](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#9-apple-%EA%B0%9C%EB%B0%9C-foundation)
+	- [App-Prefs:root 와 Prefs:root 는 어떻게 사용하는 것인가요? 사용 가능한가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#app-prefsroot-%EC%99%80-prefsroot-%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94-%EC%82%AC%EC%9A%A9-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80%EC%9A%94)
 - [10. Apple 개발: 그외](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#10-apple-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EC%99%B8)
 	- [delegate 는 어떻게 사용하는 것인가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#delegate-%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94)
 	- [여러 컨트롤러에서 보여줘야하는 뷰가 있는데 재사용성을 높일수있는 방안이 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%97%AC%EB%9F%AC-%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC%EC%97%90%EC%84%9C-%EB%B3%B4%EC%97%AC%EC%A4%98%EC%95%BC%ED%95%98%EB%8A%94-%EB%B7%B0%EA%B0%80-%EC%9E%88%EB%8A%94%EB%8D%B0-%EC%9E%AC%EC%82%AC%EC%9A%A9%EC%84%B1%EC%9D%84-%EB%86%92%EC%9D%BC%EC%88%98%EC%9E%88%EB%8A%94-%EB%B0%A9%EC%95%88%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
@@ -286,7 +287,11 @@ Hardware -> Erase All Content and Settings..
 - 리젝 사유가 될 수 있습니다 : [review guidelines 2.5 Software Requirements](https://developer.apple.com/app-store/review/guidelines/#software-requirements) 의 2.5.1. 의 내용을 보면 애플에서 제공하는 공식적인 최신 API를 사용하라고 합니다. 
 
 	```
-	2.5.1 앱은 공용 API만 사용할 수 있으며 현재 제공되는 OS에서 실행해야 합니다. 공용 API에 대해 자세히 알아보십시오. 애플리케이션을 최신 상태로 유지하고 향후 OS 버전에서 더 이상 지원되지 않는 사용되지 않는 기능, 프레임워크 또는 기술을 단계적으로 폐기해야 합니다. 앱은 API 및 프레임워크를 의도한 목적에 사용하고 앱 설명에 통합을 표시해야 한다. 예를 들어 HomeKit 프레임워크는 가정용 자동화 서비스를 제공해야 하며 HealthKit는 건강 및 피트니스 목적으로 사용되며 Health 앱과 통합되어야 합니다.
+	2.5.1 앱은 공용 API만 사용할 수 있으며 현재 판매되는 OS에서 실행되어야 합니다. 
+	공용 API(영문)에 대한 자세한 내용을 확인하십시오. 
+	앱을 최신 상태로 유지하고 OS의 다음 버전에서 더 이상 지원하지 않아 사용할 수 없는 기능, 프레임워크 또는 기술을 단계적으로 삭제하십시오. 
+	앱은 원래 목적에 맞는 프레임워크와 API를 사용해야 하고 앱 설명에 이와 관련된 내용을 기재해야 합니다. 
+	예를 들어 HomeKit 프레임워크의 경우 홈 자동화 서비스를 제공해야 하고, HealthKit의 경우 건강 및 피트니스 목적으로 사용되어야 하며, 건강 앱과 연동되어야 합니다.
 	```
 
 - iOS 10 에서는 App-Prefs?, iOS 10 미만에서는 Prefs? 는 조건을 걸면 가능할 것입니다. (가물가물하네요. 구지.. 하위버전에서 꼬옥? 사용하시려면 검색 부탁드립니다.)
