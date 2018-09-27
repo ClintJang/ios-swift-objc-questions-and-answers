@@ -261,6 +261,13 @@ Hardware -> Erase All Content and Settings..
 	- 처음이라 어떻게 해야될 지 막막하시다면 [하울님의 코딩채널](https://www.youtube.com/playlist?list=PLmdU__e_zPf-uiDtI84Gv9SxFicrbw4KV)을 추천드립니다.
 - Carthage(카르타고) 라는 비슷한 방식도 있습니다. 워크스페이스를 만드는 방식이 아닌 Embbed Framework를 이용하는 방식이죠.
 
+#### 라이브러리들 모아놓은 좋은 블로그니 링크가 있나요?
+- [awesome-ios](https://github.com/vsouza/awesome-ios) : 저는 처음에 여기 링크를 보고 사용했었습니다. 
+- [MotionBook](https://github.com/younatics/MotionBook) 앱을 받아보셔도 좋고..
+- [cocoacontrols](https://www.cocoacontrols.com/) : 여기서 키워드 검색을 해보세요. 예를 들어 테이블 뷰의 헤더 커스텀이 필요하면 .. 'header'로 검색을 ~
+- 전 이정도로 찾아보거나 보통은 키워드로 구글 검색을 해봅니다. 당연히 커뮤니티나 지인에게 물어보기도 하구요~. 
+
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
