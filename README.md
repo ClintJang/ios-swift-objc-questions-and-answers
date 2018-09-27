@@ -5,7 +5,9 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 잘못 작성된 정보는 열심히 수정 하겠습니다. 언제든지 문제가 있으면, 편하게 수정해주세요. 
 
-지금은 작성을 시작해서 내용이 적지만, 알차게 계속 업데이트 하겠습니다.
+지금은 작성을 시작해서 내용이 적지만, 알차게 계속 업데이트 하겠습니다.<br />
+디테일한 지식 보다는 iOS 개발을 하면서 이정도는 알고 있으면 좋은...<br />
+정도의 질문과 답변 형식으로 정리 하려고 합니다. 
 
 ## **목차**
 - [1. 개발입문](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#1-%EA%B0%9C%EB%B0%9C%EC%9E%85%EB%AC%B8)
@@ -288,6 +290,12 @@ Hardware -> Erase All Content and Settings..
 
 - iOS 10 에서는 App-Prefs?, iOS 10 미만에서는 Prefs? 는 조건을 걸면 가능할 것입니다. (가물가물하네요. 구지.. 하위버전에서 꼬옥? 사용하시려면 검색 부탁드립니다.)
 - 참고 링크 01 : [리젝된 경험 링크](https://qiita.com/_mogaming/items/cf1b2b75e4be7041c011)
+
+
+#### 화면을 수동으로 갱신시키려고 하는 데, 어떻게 해야될까요? 원하는 시점에 변경된 값이 정확하게 반영된 화면을 표현하고 싶습니다.
+- `setNeedsLayout`과 `layoutIfNeeded` 를 검색해 보세요. 추가적으로 `layoutSubviews` 키워드도 같이 검색해보면 좋습니다.
+- [Runloop](https://developer.apple.com/documentation/foundation/runloop), 실행 루프 라고 하지요. 실행 루프 안에서 터치나 여러 이벤트가 발생하면 거기에 따라 시스템 상황에 맞게 화면을 업데이트 합니다. 이런 업데이트 사이클에 맞춰서 화면을 갱신 시키는 시점에 [setNeedsLayout](https://developer.apple.com/documentation/uikit/uiview/1622601-setneedslayout) 가 호출되어있었다면 해당 시점에 화면을 갱신 할 것입니다. setNeedsLayout 를 사용했다면, 비동기적이며, 시스템에 효율적인 갱신 방법입니다. 단, 우리가 정확히 업데이트 시점을 컨트롤 할 수는 없을 것 입니다.
+- 즉각적으로 사용하고 싶다면 [layoutIfNeeded](https://developer.apple.com/documentation/uikit/uiview/1622507-layoutifneeded) 를 사용합니다. 강제적이고 즉시 업데이트가 가능하죠.
 
 <br />
 
