@@ -154,6 +154,26 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - derivedData 를 제거해보기 
 	- xcode deriveddata clean 정도로 구글 검색해보셔요. 
 
+#### Xcode 10으로 올리고 나서 빌드 에러가 났는 데, 어떻게 하죠? 과거로 돌아갈 수 있나요?
+- 이전 버전을 다운받을 수 있습니다. 
+	- https://developer.apple.com/download/
+	- https://developer.apple.com/download/more/
+- Xcode 10은 새로운 빌드 시스템을 사용합니다. 새로운 빌드 시스템은 향상된 안정성과 빌드 성능을 제공하며 레거시 빌드 시스템에서는 볼 수 없는 프로젝트 구성 문제를 포착합니다. 만약 문제가 있다면 이전 빌드시스템을 사용할 수 있습니다. 
+	- File > Project/Workspace Settings
+	
+	<table>
+	  <tr>
+		<th>Xcode 10 기본</th> 
+		<th>이전 빌드시스템(1/2)</th>
+		<th>이전 빌드시스템(2/2)</th>
+	  </tr>
+	  <tr>
+	  	<td><img width="226" height="115" src="/Image/NewBuild01.png"></img></td>
+	  	<td><img width="240" height="109" src="/Image/RegacyBuild01.png"></img></td>
+	  	<td><img width="233" height="110" src="/Image/RegacyBuild02.png"></img></td>
+	  </tr>
+  
+	</table>
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
