@@ -217,9 +217,18 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 1. 시뮬레이터 실행 후 왼쪽 상단 메뉴에서 중에서 
 
 ```
-Hardware -> Erase All Content and Settings..  
+Choose Hardware -> Erase All Content and Settings..  
 ```
 2. 팝업에서 Erase 를 선택하시면됩니다.
+
+#### Mac에서 복사한 텍스트(클립보드)를 시뮬레이터에 붙여넣기가 안되는 데, 가능한 방법이 있나요?
+1. 시뮬레이터 실행 후 왼쪽 상단 메뉴에서 중에서 `Automatically Sync Pasteboard`을 선택하시면 됩니다.
+
+```
+Choose Edit -> Automatically Sync Pasteboard to turn on and turn off  
+```
+
+- [simulator help topics](https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/simulator_help_topics/Chapter/Chapter.html) 링크를 참고해보세요.
 
 <br />
 
