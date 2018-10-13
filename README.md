@@ -206,6 +206,15 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	  </tr>
   
 	</table>
+	
+	
+#### 작업 중인 현재 프로젝트 폴더 위치로 이동된 터미널을 띄우고 싶은 데, 혹시 Xcode 에서 가능한 방법이 있나요?
+- 이미지 처럼 이렇게 설정하는 방법이 있습니다. 
+
+<img width="616" height="196" src="/Image/Xcode_Open_Terminal00.jpeg"></img>
+
+- [곰튀김님의 유투브 동영상](https://youtu.be/GNu6IuU_UeE) 링크를 참고해 주세요. 짱입니다.
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
