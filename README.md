@@ -25,6 +25,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	- [appstore에서 앱 다운로드 할때 단말별로 앱사이즈가 다른가요?? 이미지 해상도라던지.. 차이때문에, 만약에 다르다면 영향 받는 부분이 어디일까요?
 ](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#appstore%EC%97%90%EC%84%9C-%EC%95%B1-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%ED%95%A0%EB%95%8C-%EB%8B%A8%EB%A7%90%EB%B3%84%EB%A1%9C-%EC%95%B1%EC%82%AC%EC%9D%B4%EC%A6%88%EA%B0%80-%EB%8B%A4%EB%A5%B8%EA%B0%80%EC%9A%94-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%95%B4%EC%83%81%EB%8F%84%EB%9D%BC%EB%8D%98%EC%A7%80-%EC%B0%A8%EC%9D%B4%EB%95%8C%EB%AC%B8%EC%97%90-%EB%A7%8C%EC%95%BD%EC%97%90-%EB%8B%A4%EB%A5%B4%EB%8B%A4%EB%A9%B4-%EC%98%81%ED%96%A5-%EB%B0%9B%EB%8A%94-%EB%B6%80%EB%B6%84%EC%9D%B4-%EC%96%B4%EB%94%94%EC%9D%BC%EA%B9%8C%EC%9A%94)
 	- [미성년자는 애플 개발자 등록이 가능한가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AF%B8%EC%84%B1%EB%85%84%EC%9E%90%EB%8A%94-%EC%95%A0%ED%94%8C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%93%B1%EB%A1%9D%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80%EC%9A%94)
+	- [개인개발자도 앱 등록시 개인정보 취급방침 URL을 반드시 추가해야되나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EA%B0%9C%EC%9D%B8%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8F%84-%EC%95%B1-%EB%93%B1%EB%A1%9D%EC%8B%9C-%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EC%B7%A8%EA%B8%89%EB%B0%A9%EC%B9%A8-url%EC%9D%84-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%B6%94%EA%B0%80%ED%95%B4%EC%95%BC%EB%90%98%EB%82%98%EC%9A%94)
 
 - [3. Xcode](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#3-xcode)
 	- [Xcode에서 자동완성이 안될 때는?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#xcode%EC%97%90%EC%84%9C-%EC%9E%90%EB%8F%99%EC%99%84%EC%84%B1%EC%9D%B4-%EC%95%88%EB%90%A0-%EB%95%8C%EB%8A%94)
@@ -159,7 +160,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - 가능하지 않습니다.
 - 법적인 이유로 만 18세 미만의 청소년은 개발자 프로그램을 신청할 때에 동의해야 하는 동의서에 동의를 할 수 있는 효력을 지니지 못하기 때문에 가능하지 않습니다.
 
-### 개인개발자도 앱 등록시 개인정보 취급방침 URL을 반드시 추가해야되나요?
+#### 개인개발자도 앱 등록시 개인정보 취급방침 URL을 반드시 추가해야되나요?
 - 구글에서 'AppStore용 프라이버시 정책' 으로 검색해 보세요.
 - 2018년 10월 3일부터 Appstore에서 새로운 앱 및 앱 업데이트를 위한 앱 제출시 개인 정보 취급 방침을 요구하도록 바뀌었습니다.
 - [앱스토어 심사지침](https://developer.apple.com/kr/app-store/review/guidelines/) 의 5.1.1 내용을 확인해보세요.
