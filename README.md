@@ -30,6 +30,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - [3. Xcode](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#3-xcode)
 	- [Xcode에서 자동완성이 안될 때는?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#xcode%EC%97%90%EC%84%9C-%EC%9E%90%EB%8F%99%EC%99%84%EC%84%B1%EC%9D%B4-%EC%95%88%EB%90%A0-%EB%95%8C%EB%8A%94)
 	- [Xcode 10으로 올리고 나서 빌드 에러가 났는 데, 어떻게 하죠? 과거로 돌아갈 수 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#xcode-10%EC%9C%BC%EB%A1%9C-%EC%98%AC%EB%A6%AC%EA%B3%A0-%EB%82%98%EC%84%9C-%EB%B9%8C%EB%93%9C-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%82%AC%EB%8A%94-%EB%8D%B0-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%98%EC%A3%A0-%EA%B3%BC%EA%B1%B0%EB%A1%9C-%EB%8F%8C%EC%95%84%EA%B0%88-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)
+	- [작업 중인 현재 프로젝트 폴더 위치로 이동된 터미널을 띄우고 싶은 데, 혹시 Xcode 에서 가능한 방법이 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%9E%91%EC%97%85-%EC%A4%91%EC%9D%B8-%ED%98%84%EC%9E%AC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%8F%B4%EB%8D%94-%EC%9C%84%EC%B9%98%EB%A1%9C-%EC%9D%B4%EB%8F%99%EB%90%9C-%ED%84%B0%EB%AF%B8%EB%84%90%EC%9D%84-%EB%9D%84%EC%9A%B0%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EB%8D%B0-%ED%98%B9%EC%8B%9C-xcode-%EC%97%90%EC%84%9C-%EA%B0%80%EB%8A%A5%ED%95%9C-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
 
 - [4. 시뮬레이터](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#4-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0)
 	- [시뮬레이터 재설정 하는 방법은?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0-%EC%9E%AC%EC%84%A4%EC%A0%95-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80)
@@ -211,7 +212,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 #### 작업 중인 현재 프로젝트 폴더 위치로 이동된 터미널을 띄우고 싶은 데, 혹시 Xcode 에서 가능한 방법이 있나요?
 - 이미지 처럼 이렇게 설정하는 방법이 있습니다. 
 
-<img width="616" height="196" src="/Image/Xcode_Open_Terminal00.jpeg"></img>
+<img width="308" height="98" src="/Image/Xcode_Open_Terminal00.jpeg"></img>
 
 - [곰튀김님의 유투브 동영상](https://youtu.be/GNu6IuU_UeE) 링크를 참고해 주세요. 짱입니다.
 
