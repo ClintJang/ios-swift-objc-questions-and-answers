@@ -376,6 +376,10 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 - [Runloop](https://developer.apple.com/documentation/foundation/runloop), 실행 루프 라고 하지요. 실행 루프 안에서 터치나 여러 이벤트가 발생하면 거기에 따라 시스템 상황에 맞게 화면을 업데이트 합니다. 이런 업데이트 사이클에 맞춰서 화면을 갱신 시키는 시점에 [setNeedsLayout](https://developer.apple.com/documentation/uikit/uiview/1622601-setneedslayout) 가 호출되어있었다면 해당 시점에 화면을 갱신 할 것입니다. setNeedsLayout 를 사용했다면, 비동기적이며, 시스템에 효율적인 갱신 방법입니다. 단, 우리가 정확히 업데이트 시점을 컨트롤 할 수는 없을 것 입니다.
 - 즉각적으로 사용하고 싶다면 [layoutIfNeeded](https://developer.apple.com/documentation/uikit/uiview/1622507-layoutifneeded) 를 사용합니다. 강제적이고 즉시 업데이트가 가능하죠.
 
+#### swift로 개발할때 c++ 라이브러리 사용할 수 있나요?
+- 구글에서 `swift c++`정도로 검색을 하면 될 것 같습니다.
+- Objc로 Wrapping해서 Bridge를 통해서 불러와야 합니다.
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
