@@ -390,6 +390,13 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 
 ### **`9. Apple 개발: Foundation`**
 
+#### date는 string으로 변경안하면 무조건 9시간 차이가 나나요?
+- 구글에서 `swift date utc format`등 아래의 키워드를 활용해서 검색해보세요.
+- date 객체는 기본적으로 UTC, GMT+0의 시간을 저장합니다.
+- date 객체는 timezone이나 locale 같은 값을 안 갖고 있습니다.
+- [SwiftDate](https://github.com/malcommac/SwiftDate) 같은 라이브러리는 그걸 같이 저장할 수 있는 객체를 제공합니다.
+- 현지 시간으로 잘 변환하려면 Formatter를 쓰거나 Calendar를 써서 변환 해야 됩니다.
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
