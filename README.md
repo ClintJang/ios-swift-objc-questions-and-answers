@@ -176,8 +176,8 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	앱과 서비스가 수집하는 대상 정보(있는 경우), 정보 수집 방법, 수집한 정보의 사용 목적을 정의해야 합니다.
 	```
 
-<br />
-- [심사지침 팁](http://13.125.229.142/?p=1213)에 쉽게 작성하는법이 적혀있습니.
+- **☆** [심사지침 팁](http://13.125.229.142/?p=1213)에 쉽게 작성하는법이 적혀있습니다.
+
 <br />
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
 
