@@ -179,6 +179,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - **☆** [심사지침 팁](http://13.125.229.142/?p=1213)에 쉽게 작성하는법이 적혀있습니다.
 
 <br />
+
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
 
 <br />
@@ -541,6 +542,12 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 <br /><br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+# Contributors
+> 항상 환영합니다.
+
+- [JERCY](https://github.com/JeaSungLEE)
+- [ClintJang](https://github.com/clintjang)
 
 <br /><br />즐거운 하루 되세요 🙇‍
 <br />
