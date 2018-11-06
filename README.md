@@ -53,6 +53,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 - [7. 디자인](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#7-%EB%94%94%EC%9E%90%EC%9D%B8)
 	- [안드로이드는 UI 개발 중 크기 선택은 dp로 작업하는 데 iOS에서는 dp를 지원하나요? 현업에서는 보통 디자이너에게 요구할때 어떻게 요구를 하나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EB%8A%94-ui-%EA%B0%9C%EB%B0%9C-%EC%A4%91-%ED%81%AC%EA%B8%B0-%EC%84%A0%ED%83%9D%EC%9D%80-dp%EB%A1%9C-%EC%9E%91%EC%97%85%ED%95%98%EB%8A%94-%EB%8D%B0-ios%EC%97%90%EC%84%9C%EB%8A%94-dp%EB%A5%BC-%EC%A7%80%EC%9B%90%ED%95%98%EB%82%98%EC%9A%94-%ED%98%84%EC%97%85%EC%97%90%EC%84%9C%EB%8A%94-%EB%B3%B4%ED%86%B5-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88%EC%97%90%EA%B2%8C-%EC%9A%94%EA%B5%AC%ED%95%A0%EB%95%8C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9A%94%EA%B5%AC%EB%A5%BC-%ED%95%98%EB%82%98%EC%9A%94)
+	- [앱 디자인 툴로는 스케치가 대세인가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%95%B1-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%88%B4%EB%A1%9C%EB%8A%94-%EC%8A%A4%EC%BC%80%EC%B9%98%EA%B0%80-%EB%8C%80%EC%84%B8%EC%9D%B8%EA%B0%80%EC%9A%94)
 
 - [8. Apple 개발: UIKit](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#8-apple-%EA%B0%9C%EB%B0%9C-uikit)
 	- [멀티 터치 는 최대 갯수가 5개 인가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%A9%80%ED%8B%B0-%ED%84%B0%EC%B9%98-%EB%8A%94-%EC%B5%9C%EB%8C%80-%EA%B0%AF%EC%88%98%EA%B0%80-5%EA%B0%9C-%EC%9D%B8%EA%B0%80%EC%9A%94)
@@ -338,8 +339,6 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 - [제드님의 블러그 링크](https://zeddios.tistory.com/6)를 들어가 보세요. 제일 설명이 잘 되어있는 것 같습니다.
 - [제플린](https://zeplin.io/) 이라는 협업 툴로 개발을 많이 합니다. iOS용으로 제공받으면 편하게 개발 하실 수 있습니다.
 - 유지보수 관점에서 디자이너 분들과 협의하면 좋은 결과를 도출 할 수 있을 것입니다. 파이팅!
-
-<br />
 
 #### 앱 디자인 툴로는 스케치가 대세인가요?
 
