@@ -347,7 +347,7 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 - 요즘은 [Adobe XD](https://helpx.adobe.com/kr/xd/how-to/what-is-xd.html)로 넘어가는 추세라는 말도 들어봤습니다.
 - 어도비 엑스디의 장점으로 포토샵이나 일러에서 작업한 걸 스케치 같은 경우는 가져오기가 불편한 데, 엑스디는 복붙으로 가져올 수 있는 것 같습니다.
 - 애플에서 제공하는 리소스들도 엑스디가 지원한다 하구요.
-- 더불어 엑스디는 어도비의 단축키에 익숙하신 상태라면 러닝커브도 적을 것입니다. 
+- 더불어 엑스디는 어도비와 같은? 단축키를 사용해서, 어도비의 단축키에 익숙하신 상태라면 러닝커브도 적을 것입니다. 
 - 검색해 주세요. 😁
 
 <br />
@@ -522,11 +522,13 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 <table>
   <tr>
+   <th>2018년 10월 29일</th>
    <th>2018년 10월 10일</th> 
 	<th>2018년 09월 03일</th> 
 	<th>2018년 04월 22일</th>
   </tr>
   <tr>
+   <td><img width="200" height="600" src="/Image/AppStoreOSMeasured_20181029_2.jpeg"></img></td>
    <td><img width="200" height="600" src="/Image/AppStoreOSMeasured_20181010_01.jpeg"></img></td>
   	<td><img width="200" height="272" src="/Image/AppStoreOSMeasured_20180903.png"></img></td>
   	<td><img width="200" height="285" src="/Image/AppStoreOSMeasured_20180422.png"></img></td>
@@ -536,11 +538,13 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 	<th>2017년 12월 04일</th>
 	<th>2017년 07월 28일</th>
 	<th>2017년 02월 20일</th>
+	<th>-</th>
   </tr>
     <tr>
     <td><img width="200" height="300" src="/Image/AppStoreOSMeasured_20171204.png"></img></td>
     <td><img width="200" height="278" src="/Image/AppStoreOSMeasured_20170728.png"></img></td>
   	<td><img width="200" height="333" src="/Image/AppStoreOSMeasured_20170220.png"></img></td>
+  	<td></td>
   </tr>
 </table>
 
