@@ -247,6 +247,17 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 
 - [simulator help topics](https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/simulator_help_topics/Chapter/Chapter.html) 링크를 참고해보세요.
 
+
+#### 시뮬레이터라고 하는 데, 애뮬레이터와 차이가 무엇인가요?
+- 둘 다 실제 하드웨어를 사용할 필요없이 앱(어플리케이션)을 테스트 하기 위한 목적을 가지고 있습니다.
+- 안드로이드 개발할 때, 에뮬레이터 (`emulator`) 를 사용하지요.
+- 에뮬레이터는 아키텍쳐를 재현하여 만듭니다. 현재 시스템 안에 다른 시스템을 완벽히 재현한 것이지요. 안드로이드 에뮬레이터는 arm용과 x86용 등등을 따로 만들수 있고 비교적 무겁고 느립니다.
+- 에뮬레이터는 실제 기기와 유사한 테스트가 가능합니다.
+- 에뮬레이터가 완벽한 구현이라면 시뮬레이터는 부분적인 구현입니다.
+- 시뮬레이터(`simulator`)는 대상 시스템을 추상화 하여 실제환경에 가깝고 유사하게 동작하도록 테스트 환경을 만들어 줍니다. 속도가 빠르지요.
+- 시뮬레이터는 기존의 플랫폼에서 동작만 재현합니다. 예를 들면, iOS 디바이스는 arm64에서 시뮬레이터는 x86_64에서 돌아가요.
+- '시뮬레이터 애뮬레이터' 정도로만 검색해도 내용이 많이 나옵니다.
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
