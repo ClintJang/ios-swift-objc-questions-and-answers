@@ -388,7 +388,7 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 #### App-Prefs:root 와 Prefs:root 는 어떻게 사용하는 것인가요? 사용 가능한가요?
 - 이제 설정에서 자기 앱의 설정말고 다른 건 못 엽니다. (iOS 11 부터로 알고 있습니다.)
 - [UIApplicationOpenSettingsURLString](https://developer.apple.com/documentation/uikit/uiapplicationopensettingsurlstring?language=objc) 를 이용하시면 됩니다.
-- 리젝 사유가 될 수 있습니다 : [review guidelines 2.5 Software Requirements](https://developer.apple.com/app-store/review/guidelines/#software-requirements) 의 2.5.1. 의 내용을 보면 애플에서 제공하는 공식적인 최신 API를 사용하라고 합니다. 
+- 이제 리젝 됩니다. 사유는.. : [review guidelines 2.5 Software Requirements](https://developer.apple.com/app-store/review/guidelines/#software-requirements) 의 2.5.1. 의 내용을 보면 애플에서 제공하는 공식적인 최신 API를 사용하라고 합니다. 
 
 	```
 	2.5.1 앱은 공용 API만 사용할 수 있으며 현재 판매되는 OS에서 실행되어야 합니다. 
@@ -398,8 +398,25 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 	예를 들어 HomeKit 프레임워크의 경우 홈 자동화 서비스를 제공해야 하고, HealthKit의 경우 건강 및 피트니스 목적으로 사용되어야 하며, 건강 앱과 연동되어야 합니다.
 	```
 
-- iOS 10 에서는 App-Prefs?, iOS 10 미만에서는 Prefs? 는 조건을 걸면 가능할 것입니다. (가물가물하네요. 구지.. 하위버전에서 꼬옥? 사용하시려면 검색 부탁드립니다.)
+- iOS 10 에서는 App-Prefs?, iOS 10 미만에서는 Prefs? 는 조건을 걸면 가능할 것입니다. 하지만 사용자도 희소하고, 당연히 리젝 되리라 생각됩니다. (가물가물하네요. 구지.. 하위버전에서 꼬옥? 사용하시려면 검색 부탁드립니다.)
 - 참고 링크 01 : [리젝된 경험 링크](https://qiita.com/_mogaming/items/cf1b2b75e4be7041c011)
+- 다른 참고 예시 글 01 
+
+	```
+	... (중략) ...
+	
+	Your app uses the "prefs:root=" non-public URL scheme, 
+	which is a private entity. 
+	The use of non-public APIs is not permitted on the App Store 
+	because it can lead to a poor user experience should these APIs change.
+	
+	Continuing to use or conceal non-public APIs 
+	in future submissions of this app may result in the termination of your Apple Developer account,
+	 as well as removal of all associated apps from the App Store.
+	
+	... (중략) ...
+	
+	```
 
 
 
