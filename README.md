@@ -579,7 +579,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 	<th>2018년 04월 22일</th>
   </tr>
   <tr>
- 	<td><img width="160" src="/Image/AppStoreOSMeasured_20181203_1.jpeg"></img></td>
+ 	<td><img width="160" src="/Image/AppStoreOSMeasured_20181203_1.jpg"></img></td>
    <td><img width="160" src="/Image/AppStoreOSMeasured_20181029_2.jpeg"></img></td>
    <td><img width="160" src="/Image/AppStoreOSMeasured_20181010_01.jpeg"></img></td>
   	<td><img width="160" src="/Image/AppStoreOSMeasured_20180903.png"></img></td>
