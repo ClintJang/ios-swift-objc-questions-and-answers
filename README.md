@@ -419,9 +419,9 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 	예를 들어 HomeKit 프레임워크의 경우 홈 자동화 서비스를 제공해야 하고, HealthKit의 경우 건강 및 피트니스 목적으로 사용되어야 하며, 건강 앱과 연동되어야 합니다.
 	```
 
-- iOS 10 에서는 App-Prefs?, iOS 10 미만에서는 Prefs? 는 조건을 걸면 가능할 것입니다. 하지만 사용자도 희소하고, 당연히 리젝 되리라 생각됩니다. (가물가물하네요. 구지.. 하위버전에서 꼬옥? 사용하시려면 검색 부탁드립니다.)
-- 참고 링크 01 : [리젝된 경험 링크](https://qiita.com/_mogaming/items/cf1b2b75e4be7041c011)
-- 다른 참고 예시 글 01 
+- iOS 10 에서는 App-Prefs?, iOS 10 미만에서는 Prefs? 는 조건을 걸면 가능할 것입니다. 하지만 하위 버전은 사용자도 희소하고, 리젝 되리라 생각됩니다. 
+- 참고 링크 : [리젝된 경험 링크](https://qiita.com/_mogaming/items/cf1b2b75e4be7041c011)
+- 다른 참고 예시 : 리젝되어 받은 내용 중 일부 글 
 
 	```
 	... (중략) ...
@@ -463,6 +463,12 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 - date 객체는 timezone이나 locale 같은 값을 안 갖고 있습니다.
 - [SwiftDate](https://github.com/malcommac/SwiftDate) 같은 라이브러리는 그걸 같이 저장할 수 있는 객체를 제공합니다.
 - 현지 시간으로 잘 변환하려면 Formatter를 쓰거나 Calendar를 써서 변환 해야 됩니다.
+
+#### Codable 클래스는 Objective-C에서 사용할 수 있나요?
+- 아니요. 사용할 수 없습니다. 
+- [Codable](https://developer.apple.com/documentation/swift/codable)은 **Swift** Standard Library 입니다.
+- Swift 4 이상에서만 사용할 수 있습니다.
+- [Codable 샘플소스](https://github.com/ClintJang/sample-swift-codable)
 
 <br />
 
