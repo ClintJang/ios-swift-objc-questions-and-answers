@@ -65,6 +65,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 - [9. Apple 개발: Foundation](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#9-apple-%EA%B0%9C%EB%B0%9C-foundation)
 	- [date는 string으로 변경안하면 무조건 9시간 차이가 나나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#date%EB%8A%94-string%EC%9C%BC%EB%A1%9C-%EB%B3%80%EA%B2%BD%EC%95%88%ED%95%98%EB%A9%B4-%EB%AC%B4%EC%A1%B0%EA%B1%B4-9%EC%8B%9C%EA%B0%84-%EC%B0%A8%EC%9D%B4%EA%B0%80-%EB%82%98%EB%82%98%EC%9A%94)
+	- [Codable 클래스는 Objective-C에서 사용할 수 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#codable-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8A%94-objective-c%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)
 
 - [10. Apple 개발: 그외](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#10-apple-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EC%99%B8)
 	- [delegate 는 어떻게 사용하는 것인가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#delegate-%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94)
