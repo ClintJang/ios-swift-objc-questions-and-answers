@@ -579,6 +579,20 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 - 점유율 (매년 9월 중순 즈음, 신규 OS를 업데이트 합니다.)
 
 <table>
+   <tr>
+ 	<th>2019년 01월 01일</th>
+   <th> - </th>
+   <th> - </th> 
+	<th> - </th> 
+	<th> - </th>
+  </tr>
+  <tr>
+ 	<td><img width="160" src="/Image/AppStoreOSMeasured_20190101_1.png"></img></td>
+   <td></td>
+   <td></td>
+  	<td></td>
+  	<td></td>
+  </tr>
   <tr>
  	<th>2018년 12월 03일</th>
    <th>2018년 10월 29일</th>
