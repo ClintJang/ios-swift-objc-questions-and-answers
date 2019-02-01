@@ -66,6 +66,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - [9. Apple 개발: Foundation](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#9-apple-%EA%B0%9C%EB%B0%9C-foundation)
 	- [date는 string으로 변경안하면 무조건 9시간 차이가 나나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#date%EB%8A%94-string%EC%9C%BC%EB%A1%9C-%EB%B3%80%EA%B2%BD%EC%95%88%ED%95%98%EB%A9%B4-%EB%AC%B4%EC%A1%B0%EA%B1%B4-9%EC%8B%9C%EA%B0%84-%EC%B0%A8%EC%9D%B4%EA%B0%80-%EB%82%98%EB%82%98%EC%9A%94)
 	- [Codable 클래스는 Objective-C에서 사용할 수 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#codable-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8A%94-objective-c%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)
+	- [UrlRequest를 여러개 날리는데 모두 끝날때까지 대기하는 방법은 어떤걸 봐야하나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#urlrequest%EB%A5%BC-%EC%97%AC%EB%9F%AC%EA%B0%9C-%EB%82%A0%EB%A6%AC%EB%8A%94%EB%8D%B0-%EB%AA%A8%EB%91%90-%EB%81%9D%EB%82%A0%EB%95%8C%EA%B9%8C%EC%A7%80-%EB%8C%80%EA%B8%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80-%EC%96%B4%EB%96%A4%EA%B1%B8-%EB%B4%90%EC%95%BC%ED%95%98%EB%82%98%EC%9A%94)
 
 - [10. Apple 개발: 그외](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#10-apple-%EA%B0%9C%EB%B0%9C-%EA%B7%B8%EC%99%B8)
 	- [delegate 는 어떻게 사용하는 것인가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#delegate-%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94)
@@ -472,7 +473,7 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 - [Codable 샘플소스](https://github.com/ClintJang/sample-swift-codable)
 
 #### UrlRequest를 여러개 날리는데 모두 끝날때까지 대기하는 방법은 어떤걸 봐야하나요?
-- [DispatchGroup](https://developer.apple.com/documentation/dispatch/dispatchgroup) 을 이용해서 notify 로 처리하는 방법이 있습니다. 검색해 보세요.
+- [`DispatchGroup`](https://developer.apple.com/documentation/dispatch/dispatchgroup) 을 이용해서 `notify` 로 처리하는 방법이 있습니다. 강조한 키워드로 검색해 보세요.
 - 참고할 만한 [셈플 소스 링크](https://github.com/ClintJang/sample-swift-dispatchgroup)입니다.
 - 그 외에 [RxSwift의 Zip](http://reactivex.io/documentation/operators/zip.html)등의 오퍼레이터를 활용하는 방법
 - 그 외에 라이브러리로 [Bolts-Swift](https://github.com/BoltsFramework/Bolts-Swift) 등을 활용할 수 있습니다.
