@@ -562,11 +562,14 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 ### **`12. RxSwift`** 
 #### RxSwift가 무엇인가요?
-- 리엑티브 (Reactive eXtension) 라고 부르지요. Reactive는 같은 말로 알엑스(Rx) 라고 부릅니다. 리엑티브 페러다임은 마이크로소프트가 창안한 개념으로 데이터의 흐름에 따른 변화를 만드는 비동기적인 프로그래밍 패러다임입니다.
-- RxSwift가 궁금하시면 곰튀김님 동영상 설명을 들으면 이해가 쏙쏙 됩니다. 정말 최고에요. 한번 보세요. 총 2편입니다. 1편부터 고고
+- 리엑티브 (Reactive eXtension) 라고 부르지요. Reactive는 같은 말로 알엑스(Rx) 라고 부릅니다. 리엑티브 페러다임은 마이크로소프트가 창안한 개념으로 데이터의 흐름에 따른 변화를 만드는 비동기적인 프로그래밍 패러다임을 구체화 시킨 swift용 라이브러리라고 생각하시면 됩니다.
+- [http://reactivex.io/documentation/ko/observable.html](reactivex.io)에서 한국어가 지원되는 페이지가 있어서 처음에는 사이트를 이용하셔서 의미를 알아보셔도 좋습니다.
+- RxSwift를 왜 하는 지 궁금하시면 곰튀김님 동영상 설명을 들으면 이해가 쏙쏙 됩니다. 정말 최고에요. 한번 보세요. 총 2편입니다. 1편부터 고고
 	- 1편, [곰튀김님 - Functional Reactive Programming 패러다임](https://www.youtube.com/watch?v=cXi_CmZuBgg&feature=youtu.be)
 	- 2편, [곰튀김님 - Functional Programming이 뭐하는 건가요? ](https://www.youtube.com/watch?v=HZkqMiwT-5A&feature=youtu.be)
+- [Rx에겐 특별한 것이 있다.](https://iamchiwon.github.io/2018/11/29/rxhasmore/) 를 한번 읽어보세요.
 - [마기님 블로그 RxSwift 1편](https://magi82.github.io/ios-rxswift-01/)을 봐보셔요. 여기 설명도 좋습니다. **계속 연재해주세요.!**
+- 제가 정리한 [RxSwift관련 한국어 동영상 링크](https://github.com/ClintJang/awesome-swift-korean-lecture/blob/master/README.md#rxswift)도 참고하셔도 좋습니다.
 
 <br />
 
