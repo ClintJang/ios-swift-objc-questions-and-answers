@@ -471,6 +471,12 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 - Swift 4 이상에서만 사용할 수 있습니다.
 - [Codable 샘플소스](https://github.com/ClintJang/sample-swift-codable)
 
+#### UrlRequest를 여러개 날리는데 모두 끝날때까지 대기하는 방법은 어떤걸 봐야하나요?
+- [DispatchGroup](https://developer.apple.com/documentation/dispatch/dispatchgroup) 을 이용해서 notify 로 처리하는 방법이 있습니다. 검색해 보세요.
+- 참고할 만한 [셈플 소스 링크](https://github.com/ClintJang/sample-swift-dispatchgroup)입니다.
+- 그 외에 [RxSwift의 Zip](http://reactivex.io/documentation/operators/zip.html)등의 오퍼레이터를 활용하는 방법
+- 그 외에 라이브러리로 [Bolts-Swift](https://github.com/BoltsFramework/Bolts-Swift) 등을 활용할 수 있습니다.
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
