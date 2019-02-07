@@ -293,6 +293,16 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 - 예를 들어 화면 비중을 일부라도 네이티브로 한다던지..
 - 예를 들어 푸시 기능을 추가한다던지..
 - 리뷰어에게 설명할 수 있는 네이티브 기능이 있어야 할 것 입니다.
+- [App Store Review Guidelines 4.2](https://developer.apple.com/kr/app-store/review/guidelines/#minimum-functionality)
+
+```
+4.2 최소한의 기능
+앱에는 웹 사이트를 단순히 바꾼 수준을 넘어서는 기능, 콘텐츠, UI가 있어야 합니다. 
+**특별히 유용하거나 고유하지 않은, '앱 같지 않은' 앱은 App Store에 등록할 수 없습니다.** 
+지속적인 엔터테인먼트 가치를 제공하지 못하는 앱이나 지나치게 공포스러운 앱은 거부될 수 있습니다. 
+단순히 노래나 동영상으로 된 앱은 iTunes Store에 제출해야 하며 
+책이나 게임 설명서로 된 앱은 iBooks Store에 제출해야 합니다.
+```
 
 #### 페이지 한개 짜리 앱이 리젝 사유인가요?
 - 리뷰어에 따라 다릅니다. 중요한게 수준미달이라 판단되도 리젝 당할 수 있습니다. 작동하지 않거나 수준 미달의 경험을 제공하는 앱은 언제든지 App Store에서 삭제될 수 있습니다.
