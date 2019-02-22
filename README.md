@@ -110,6 +110,10 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - 오픈된 대화방은 [카카오톡 iOS 오픈채팅방(iOS Developers KR)](https://open.kakao.com/o/gyLape), [Slack swiftkorea](http://slack.swiftkorea.org/), [카카오톡 RxSwift 오픈채팅방](https://open.kakao.com/o/gl2YZjq) 정도가 있는 것 같습니다. 
 - iOS 개발자는 소수이니 커뮤니티에서 함께 개발을 진행하며, 어려운 내용은 공유하고 도움도 주고 받고 하면 개발일을 더 즐겁게 할 수 있는 것 같습니다.
 
+#### ios 공부할만한 깃헙 프로젝트 혹시 추천해주실 수 있나요? 독학하는데 가이드가 없으니 힘드네용 알려주시면 감사하겠습니다
+- https://github.com/ClintJang/awesome-swift-korean-lecture
+- https://github.com/soapyigu/Swift-30-Projects
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
