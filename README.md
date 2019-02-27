@@ -604,7 +604,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 - [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
 - 점유율 (매년 9월 중순 즈음, 신규 OS를 업데이트 합니다.)
 
-<details open><summary>**2019년 점유율**</summary>
+<details open><summary><b>2019년 점유율</b></summary>
 
 <table>
    <tr>
@@ -625,7 +625,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 </details>
 
-<details open><summary>**2018년 점유율**</summary>
+<details open><summary><b>2018년 점유율</b></summary>
 
 <table>
   <tr>
@@ -648,7 +648,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 </details>
 
 
-<details><summary>**2017년 점유율** (12월 4일, 07월 28일, 2월 20일, 접힌 것을 펴주세요.)</summary>
+<details><summary><b>2017년 점유율</b> (12월 4일, 07월 28일, 2월 20일, 접힌 것을 펴주세요.)</summary>
 
 <table>
   <tr>
@@ -668,7 +668,9 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 </table>
 
 </details>
+<br />
 
+---
 
 - 최신 OS가 높은 점유율을 차지 하고 있고, 이전 OS까지 합하면 90%가 넘을 것 입니다. 그래서 보통 반영한다면, 현재와 이전 정보까지를 포함해서 배포하면 좋을 것 같습니다.
 - iOS 사용자는 업데이트를 빠르게 수용합니다. Earlier 는 테스트 장비나 오래되서 방치된 단말이 많이 포함되어있을 것입니다. 빠르게 업데이트해서 사용하니 최신 OS에 근접한 OS를 하셔도 괜찮을 것입니다. 그래야 유지보수 이슈에 들어가는 비용도 줄어들고, 신기술을 적용하기 좋습니다. 그만큼 사용시 문제점(버그)도 줄어들죠.
