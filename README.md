@@ -606,14 +606,14 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 <table>
    <tr>
  	<th>2019년 01월 01일</th>
-   <th> - </th>
+ 	<th>2019년 02월 24일</th>
    <th> - </th> 
 	<th> - </th> 
 	<th> - </th>
   </tr>
   <tr>
  	<td><img width="160" src="/Image/AppStoreOSMeasured_20190101_1.png"></img></td>
-   <td></td>
+   <td><img width="160" src="/Image/AppStoreOSMeasured_20190224_1.png"></td>
    <td></td>
   	<td></td>
   	<td></td>
