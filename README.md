@@ -15,6 +15,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	- [Swift 개발을 처음 시작할 때 공부하기 좋은 링크 가 있을 까요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#swift-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%A0-%EB%95%8C-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0-%EC%A2%8B%EC%9D%80-%EB%A7%81%ED%81%AC-%EA%B0%80-%EC%9E%88%EC%9D%84-%EA%B9%8C%EC%9A%94)
 	- [Objective C 공부할 좋은 방법이 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#objective-c-%EA%B3%B5%EB%B6%80%ED%95%A0-%EC%A2%8B%EC%9D%80-%EB%B0%A9%EB%B2%95%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
 	- [처음 개발에 입문 했는 데, 좋은 커뮤니티가 있을까요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%B2%98%EC%9D%8C-%EA%B0%9C%EB%B0%9C%EC%97%90-%EC%9E%85%EB%AC%B8-%ED%96%88%EB%8A%94-%EB%8D%B0-%EC%A2%8B%EC%9D%80-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%EA%B0%80-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94)
+	- [ios 공부할만한 깃헙 프로젝트 혹시 추천해주실 수 있나요? 독학하는데 가이드가 없으니 힘드네용 알려주시면 감사하겠습니다](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#ios-%EA%B3%B5%EB%B6%80%ED%95%A0%EB%A7%8C%ED%95%9C-%EA%B9%83%ED%97%99-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%98%B9%EC%8B%9C-%EC%B6%94%EC%B2%9C%ED%95%B4%EC%A3%BC%EC%8B%A4-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94-%EB%8F%85%ED%95%99%ED%95%98%EB%8A%94%EB%8D%B0-%EA%B0%80%EC%9D%B4%EB%93%9C%EA%B0%80-%EC%97%86%EC%9C%BC%EB%8B%88-%ED%9E%98%EB%93%9C%EB%84%A4%EC%9A%A9-%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%8B%9C%EB%A9%B4-%EA%B0%90%EC%82%AC%ED%95%98%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4)
 
 - [2. appstore](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#2-appstore)
 	- [애플 개발자 전화 지원은 몇번인가요? 전화가 가능한가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%95%A0%ED%94%8C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%A0%84%ED%99%94-%EC%A7%80%EC%9B%90%EC%9D%80-%EB%AA%87%EB%B2%88%EC%9D%B8%EA%B0%80%EC%9A%94-%EC%A0%84%ED%99%94%EA%B0%80-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80%EC%9A%94)
@@ -603,21 +604,30 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 - [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
 - 점유율 (매년 9월 중순 즈음, 신규 OS를 업데이트 합니다.)
 
+<details open><summary>**2019년 점유율**</summary>
+
 <table>
    <tr>
- 	<th>2019년 01월 01일</th>
  	<th>2019년 02월 24일</th>
-   <th> - </th> 
-	<th> - </th> 
-	<th> - </th>
+ 	<th>2019년 01월 01일</th>
+   <th width="160"> - </th> 
+	<th width="160"> - </th> 
+	<th width="160"> - </th>
   </tr>
   <tr>
- 	<td><img width="160" src="/Image/AppStoreOSMeasured_20190101_1.png"></img></td>
-   <td><img width="160" src="/Image/AppStoreOSMeasured_20190224_1.png"></td>
+ 	<td><img width="160" src="/Image/AppStoreOSMeasured_20190224_1 .png"></img></td>
+   <td><img width="160" src="/Image/AppStoreOSMeasured_20190101_1.png"></td>
    <td></td>
   	<td></td>
   	<td></td>
   </tr>
+</table>
+
+</details>
+
+<details open><summary>**2018년 점유율**</summary>
+
+<table>
   <tr>
  	<th>2018년 12월 03일</th>
    <th>2018년 10월 29일</th>
@@ -633,6 +643,14 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
   	<td><img width="160" src="/Image/AppStoreOSMeasured_20180422.png"></img></td>
   	
   </tr>
+</table>
+
+</details>
+
+
+<details><summary>**2017년 점유율** (12월 4일, 07월 28일, 2월 20일, 접힌 것을 펴주세요.)</summary>
+
+<table>
   <tr>
 	<th>2017년 12월 04일</th>
 	<th>2017년 07월 28일</th>
@@ -644,10 +662,13 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
     <td><img width="160" src="/Image/AppStoreOSMeasured_20171204.png"></img></td>
     <td><img width="160" src="/Image/AppStoreOSMeasured_20170728.png"></img></td>
   	<td><img width="160" src="/Image/AppStoreOSMeasured_20170220.png"></img></td>
-  	<td></td>
-  	<td></td>
+  	<td width="160" ></td>
+  	<td width="160" ></td>
   </tr>
 </table>
+
+</details>
+
 
 - 최신 OS가 높은 점유율을 차지 하고 있고, 이전 OS까지 합하면 90%가 넘을 것 입니다. 그래서 보통 반영한다면, 현재와 이전 정보까지를 포함해서 배포하면 좋을 것 같습니다.
 - iOS 사용자는 업데이트를 빠르게 수용합니다. Earlier 는 테스트 장비나 오래되서 방치된 단말이 많이 포함되어있을 것입니다. 빠르게 업데이트해서 사용하니 최신 OS에 근접한 OS를 하셔도 괜찮을 것입니다. 그래야 유지보수 이슈에 들어가는 비용도 줄어들고, 신기술을 적용하기 좋습니다. 그만큼 사용시 문제점(버그)도 줄어들죠.
