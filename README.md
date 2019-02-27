@@ -583,6 +583,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 	- 1편, [곰튀김님 - Functional Reactive Programming 패러다임](https://www.youtube.com/watch?v=cXi_CmZuBgg&feature=youtu.be)
 	- 2편, [곰튀김님 - Functional Programming이 뭐하는 건가요? ](https://www.youtube.com/watch?v=HZkqMiwT-5A&feature=youtu.be)
 - [Rx에겐 특별한 것이 있다.](https://iamchiwon.github.io/2018/11/29/rxhasmore/) 를 한번 읽어보세요.
+- [RxSwift 왜 사용하면 좋을까요?](https://medium.com/@jang.wangsu/ios-swift-rxswift-%EC%99%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%A2%8B%EC%9D%84%EA%B9%8C%EC%9A%94-5c9995f47bab) : RxSwift 개발을 하면서 개인적인 생각을 작성해보았습니다.
 - [마기님 블로그 RxSwift 1편](https://magi82.github.io/ios-rxswift-01/)을 봐보셔요. 여기 설명도 좋습니다. **계속 연재해주세요.!**
 - 제가 정리한 [RxSwift관련 한국어 동영상 링크](https://github.com/ClintJang/awesome-swift-korean-lecture/blob/master/README.md#rxswift)도 참고하셔도 좋습니다.
 
