@@ -27,6 +27,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 ](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#appstore%EC%97%90%EC%84%9C-%EC%95%B1-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%ED%95%A0%EB%95%8C-%EB%8B%A8%EB%A7%90%EB%B3%84%EB%A1%9C-%EC%95%B1%EC%82%AC%EC%9D%B4%EC%A6%88%EA%B0%80-%EB%8B%A4%EB%A5%B8%EA%B0%80%EC%9A%94-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%95%B4%EC%83%81%EB%8F%84%EB%9D%BC%EB%8D%98%EC%A7%80-%EC%B0%A8%EC%9D%B4%EB%95%8C%EB%AC%B8%EC%97%90-%EB%A7%8C%EC%95%BD%EC%97%90-%EB%8B%A4%EB%A5%B4%EB%8B%A4%EB%A9%B4-%EC%98%81%ED%96%A5-%EB%B0%9B%EB%8A%94-%EB%B6%80%EB%B6%84%EC%9D%B4-%EC%96%B4%EB%94%94%EC%9D%BC%EA%B9%8C%EC%9A%94)
 	- [미성년자는 애플 개발자 등록이 가능한가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AF%B8%EC%84%B1%EB%85%84%EC%9E%90%EB%8A%94-%EC%95%A0%ED%94%8C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%93%B1%EB%A1%9D%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80%EC%9A%94)
 	- [개인개발자도 앱 등록시 개인정보 취급방침 URL을 반드시 추가해야되나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EA%B0%9C%EC%9D%B8%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8F%84-%EC%95%B1-%EB%93%B1%EB%A1%9D%EC%8B%9C-%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EC%B7%A8%EA%B8%89%EB%B0%A9%EC%B9%A8-url%EC%9D%84-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%B6%94%EA%B0%80%ED%95%B4%EC%95%BC%EB%90%98%EB%82%98%EC%9A%94)
+	- [스토어 스크린샷에 디바이스를 같이 보여주소 싶은데 가이드라인 같은걸 확인 할 수 있는데가 있을까요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#스토어-스크린샷에-디바이스를-같이-보여주소-싶은데-가이드라인-같은걸-확인-할-수-있는데가-있을까요)
 
 - [3. Xcode](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#3-xcode)
 	- [Xcode에서 자동완성이 안될 때는?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#xcode%EC%97%90%EC%84%9C-%EC%9E%90%EB%8F%99%EC%99%84%EC%84%B1%EC%9D%B4-%EC%95%88%EB%90%A0-%EB%95%8C%EB%8A%94)
@@ -195,6 +196,11 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	```
 
 - **☆** [심사지침 팁](http://13.125.229.142/?p=1213)에 쉽게 작성하는법이 적혀있습니다.
+
+#### 스토어 스크린샷에 디바이스를 같이 보여주소 싶은데 가이드라인 같은걸 확인 할 수 있는데가 있을까요?
+- 앱 미리보기 및 스크린샷 이미지 업로드 하는 부분에 "?" 아이콘을 클릭하시면 가이드 링크가 나타납니다.
+- [앱 미리보기 사양](https://help.apple.com/app-store-connect/#/dev4e413fcb8)
+- [App Store 아이콘, 앱 미리보기 및 스크린샷 개요](https://help.apple.com/app-store-connect/#/dev910472ff2)
 
 <br />
 
