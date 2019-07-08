@@ -571,7 +571,7 @@ MVC는 Model-View-Controller의 약자입니다.
 그 3가지 요소를 설명하면
 Model은 무엇을 할지 정의합니다. 비지니스 로직에서의 알고리즘, 데이터 등의 기능을 처합니다.
 Controller는 어떻게 할지를 정의합니다. 화면의 처리기능과 Model과 View를 연결시켜주는 연활을 하지요. 
-View는 화면을 보여주는 역활을 하지요. 웹이라면 웹페이지, 모바일이라면 어플의 화면의 보여지는 부분입니다.
+View는 화면을 보여주는 역할을 하지요. 웹이라면 웹페이지, 모바일이라면 어플의 화면의 보여지는 부분입니다.
 MVC는 복잡한 대규모 프로그램을 개발을 하게 되면서 문제점이 확인되었습니다.
 
 다수의 View와 Model이 Controller를 통해 복잡하게 연결될 수 있기 때문에 Controller가 뚱뚱해지게 되는 Massive ViewController(대규모 MVC 어플리케이션)가 되어버립니다.
@@ -628,7 +628,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 	<th width="160"> - </th> 
   </tr>
   <tr>
-	<td><img width="160" src="/Image/AppStoreOSMeasured_20190530_1.jpg"></img></td>
+	<td><img width="160" src="/Image/AppStoreOSMeasured_20190530_2.png"></img></td>
  	<td><img width="160" src="/Image/AppStoreOSMeasured_20190224_1.png"></img></td>
    <td><img width="160" src="/Image/AppStoreOSMeasured_20190101_1.png"></td>
    <td></td>
@@ -694,9 +694,16 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 - [download 링크](https://developer.apple.com/download/) : 다운로드 링크 입니다. 최신 다운로드 정보를 알 수 있습니다.
 - [download more 링크](https://developer.apple.com/download/more/) : 지나간 다운로드 정보를 찾을 수 있습니다.
 
+## 새로운 iOS에 대한 beta일정 같은걸 확인할수 있는 곳이 있나요?
+- [news 링크](https://developer.apple.com/news/) : 다운로드 링크 입니다. 최신 다운로드 정보를 알 수 있습니다.
+- [releases 링크](https://developer.apple.com/news/releases/) : 지나간 다운로드 정보를 찾을 수 있습니다.
+- 다운로드 링크는 바로 위의 질문의 답변 링크를 보시면 될 것 같습니다.
+
 <br /><br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
+
+<br />
 
 # Contributors
 > 항상 환영합니다.
