@@ -88,6 +88,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	- [애플 사이트나 시스템 운영 상태의 에러 유무는 어떻게 알 수가 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%95%A0%ED%94%8C-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%82%98-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%9A%B4%EC%98%81-%EC%83%81%ED%83%9C%EC%9D%98-%EC%97%90%EB%9F%AC-%EC%9C%A0%EB%AC%B4%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%95%8C-%EC%88%98%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94)
 	- [iOS 배포 최소 버전에 대해 고민중입니다. iOS OS버전을 사용하는 통계 정보를 알 수 있는 정보나 링크가 있을까요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#ios-%EB%B0%B0%ED%8F%AC-%EC%B5%9C%EC%86%8C-%EB%B2%84%EC%A0%84%EC%97%90-%EB%8C%80%ED%95%B4-%EA%B3%A0%EB%AF%BC%EC%A4%91%EC%9E%85%EB%8B%88%EB%8B%A4-ios-os%EB%B2%84%EC%A0%84%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%ED%86%B5%EA%B3%84-%EC%A0%95%EB%B3%B4%EB%A5%BC-%EC%95%8C-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%A0%95%EB%B3%B4%EB%82%98-%EB%A7%81%ED%81%AC%EA%B0%80-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94)
 	- [이전 OS,Xcode 나 최신 OS, Xcode를 받으려면 어디서 받을 수 있을까요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%9D%B4%EC%A0%84-osxcode-%EB%82%98-%EC%B5%9C%EC%8B%A0-os-xcode%EB%A5%BC-%EB%B0%9B%EC%9C%BC%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%94%94%EC%84%9C-%EB%B0%9B%EC%9D%84-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C%EC%9A%94)
+	- [새로운 iOS에 대한 beta일정 같은걸 확인할수 있는 곳이 있나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EC%83%88%EB%A1%9C%EC%9A%B4-ios%EC%97%90-%EB%8C%80%ED%95%9C-beta%EC%9D%BC%EC%A0%95-%EA%B0%99%EC%9D%80%EA%B1%B8-%ED%99%95%EC%9D%B8%ED%95%A0%EC%88%98-%EC%9E%88%EB%8A%94-%EA%B3%B3%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
 	
 <br />
 
@@ -632,7 +633,6 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
  	<td><img width="160" src="/Image/AppStoreOSMeasured_20190224_1.png"></img></td>
    <td><img width="160" src="/Image/AppStoreOSMeasured_20190101_1.png"></td>
    <td></td>
-  	<td></td>
   	<td></td>
   </tr>
 </table>
