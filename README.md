@@ -246,6 +246,23 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 - [곰튀김님의 유투브 동영상](https://youtu.be/GNu6IuU_UeE) 링크를 참고해 주세요. 짱입니다.
 
+#### 아이폰 앱 로그 속도 측정하고 있는 데, 앱 런처스크린 실행하면서 시간이 많이 걸립니다. 이 부분도 설정하는 것이 있나요?
+- 아래 이미지 처럼 환경변수 설정해주시면, 디버그콘솔에 찍혀요.
+
+	<table>
+	  <tr>
+		<th>환경변수 설정</th> 
+		<th>콘솔 로그</th>
+	  </tr>
+	  <tr>
+	  	<td><img width="300" src="/Image/AppLogSpeedSetting.jpg"></img></td>
+	  	<td><img width="300" src="/Image/AppLogSpeedConsole.jpg"></img></td>
+	  </tr>
+  
+	</table>
+
+- 이건 pre-main타임 입니다. 그이후 시간은 AppDelegate가 호출된 이후라 그건 직접 찍으시면 됩니다.
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
