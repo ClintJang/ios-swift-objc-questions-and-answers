@@ -265,6 +265,17 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - 이건 pre-main타임 입니다. 그이후 시간은 AppDelegate가 호출된 이후라 그건 직접 찍으시면 됩니다.
 - 환경변수 : `DYLD_PRINT_STATISTICS`, value : 1
 
+#### Swift 프로젝트의 컴파일 시간 최적화를 시키려면 어떻게 하면 좋을까요?
+> Swift는 기존 Objective-C의 단점을 보완하며, 현대 프로그래밍 언어가 갖고 있는 기능을 많이 포함하고 더불어 일정한 성능 향상을 시켰지만... Objective-C에 비해서 빌드 속도가 현저히 느려졌지요? 😭
+
+- 성능 좋은 PC를 선택하는 것도 중요할 것 입니다. 더불어..
+- 개인적으로 이 링크를 들어가서 보시길 추천드립니다. 👍
+	- https://github.com/fastred/Optimizing-Swift-Build-Times
+- 그외 링크
+	- [민소네님 : 컴파일 시간을 아주 많이 줄이기](http://minsone.github.io/mac/ios/improve-compile-time-of-swift)
+	- [제드님 : OptimizationTips (Writing High-Performance Swift Code](https://zeddios.tistory.com/593)
+	- [WMO  알아보기(컴파일 최적화)](https://brunch.co.kr/@joonwonlee/14)
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
