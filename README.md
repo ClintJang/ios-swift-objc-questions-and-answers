@@ -28,6 +28,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	- [미성년자는 애플 개발자 등록이 가능한가요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AF%B8%EC%84%B1%EB%85%84%EC%9E%90%EB%8A%94-%EC%95%A0%ED%94%8C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%93%B1%EB%A1%9D%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80%EC%9A%94)
 	- [개인개발자도 앱 등록시 개인정보 취급방침 URL을 반드시 추가해야되나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EA%B0%9C%EC%9D%B8%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%8F%84-%EC%95%B1-%EB%93%B1%EB%A1%9D%EC%8B%9C-%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EC%B7%A8%EA%B8%89%EB%B0%A9%EC%B9%A8-url%EC%9D%84-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%B6%94%EA%B0%80%ED%95%B4%EC%95%BC%EB%90%98%EB%82%98%EC%9A%94)
 	- [스토어 스크린샷에 디바이스를 같이 보여주소 싶은데 가이드라인 같은걸 확인 할 수 있는데가 있을까요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#스토어-스크린샷에-디바이스를-같이-보여주소-싶은데-가이드라인-같은걸-확인-할-수-있는데가-있을까요)
+	- [앱스토어에서 앱 이름 아래에 개발자 이름을 변경하고 싶은데 따로 변경할 수 있나요? 고객센터에 문의해봐야되나요?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#앱스토어에서-앱-이름-아래에-개발자-이름을-변경하고-싶은데-따로-변경할-수-있나요-고객센터에-문의해봐야되나요)
 
 - **[3. Xcode](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#3-xcode)**
 	- [Xcode에서 자동완성이 안될 때는?](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#xcode%EC%97%90%EC%84%9C-%EC%9E%90%EB%8F%99%EC%99%84%EC%84%B1%EC%9D%B4-%EC%95%88%EB%90%A0-%EB%95%8C%EB%8A%94)
