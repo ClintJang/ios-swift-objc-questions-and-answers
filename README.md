@@ -516,6 +516,41 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 - [Runloop](https://developer.apple.com/documentation/foundation/runloop), 실행 루프 라고 하지요. 실행 루프 안에서 터치나 여러 이벤트가 발생하면 거기에 따라 시스템 상황에 맞게 화면을 업데이트 합니다. 이런 업데이트 사이클에 맞춰서 화면을 갱신 시키는 시점에 [setNeedsLayout](https://developer.apple.com/documentation/uikit/uiview/1622601-setneedslayout) 가 호출되어있었다면 해당 시점에 화면을 갱신 할 것입니다. setNeedsLayout 를 사용했다면, 비동기적이며, 시스템에 효율적인 갱신 방법입니다. 단, 우리가 정확히 업데이트 시점을 컨트롤 할 수는 없을 것 입니다.
 - 즉각적으로 사용하고 싶다면 [layoutIfNeeded](https://developer.apple.com/documentation/uikit/uiview/1622507-layoutifneeded) 를 사용합니다. 강제적이고 즉시 업데이트가 가능하죠.
 
+#### 오토레이아웃 깨지면 상황이 발생했을 때, 문제점을 해결하기 위해 보면 좋은 사이트 어디 인지 아세요?
+- https://www.wtfautolayout.com/
+- iOS와 macOS의 자동 레이아웃에서 오류 로그를 구문 분석하여 충돌하는 제약조건에 대한 보다 직관적인 시각적 설명을 제공하는 사이트입니다.
+- 오류 로그 를 복사해서 넣으면 보기 쉽게 알려줍니다. 아래는 제가 강제로 발생시킨 오류 로그 입니다.
+
+```
+[LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x6000019218b0 V:|-(66)-[UIScrollView:0x7fb177025200]   (active, names: '|':UIView:0x7fb1765096d0 )>",
+    "<NSLayoutConstraint:0x600001921a40 UIScrollView:0x7fb177025200.bottom == UIView:0x7fb1765096d0.bottom - 44   (active)>",
+    "<NSLayoutConstraint:0x600001921a90 UIScrollView:0x7fb177025200.height == 100   (active)>",
+    "<NSLayoutConstraint:0x600001921ae0 'UIView-Encapsulated-Layout-Height' UIView:0x7fb1765096d0.height == 896   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x600001921a90 UIScrollView:0x7fb177025200.height == 100   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+```
+
+<table>
+   <tr>
+   <th>오류 로그를 넣어서 Run</th>
+ 	<th>보기 쉬운 결과</th>
+  </tr>
+  <tr>
+	<td><img width="300" src="/Image/wtfautolayout_before_run"></img></td>
+ 	<td><img width="300" src="/Image/wtfautolayout_after_run.png"></img></td>
+  </tr>
+</table>
 
 <br />
 
