@@ -454,6 +454,10 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 - 더불어 엑스디는 어도비와 같은? 단축키를 사용해서, 어도비의 단축키에 익숙하신 상태라면 러닝커브도 적을 것입니다. 
 - 검색해 주세요. 😁
 
+#### 1024 앱 아이콘 한번에 다 변환해주는 사이트 있나요?
+- https://appiconmaker.co
+- 맥용 앱 사용하시면 더 편할 수 있습니다.
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
@@ -691,22 +695,26 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 #### iOS 배포 최소 버전에 대해 고민중입니다. iOS OS버전을 사용하는 통계 정보를 알 수 있는 정보나 링크가 있을까요?
 - [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
 - 점유율 (매년 9월 중순 즈음, 신규 OS를 업데이트 합니다.)
+- 마지막 2019년 8월 6일 기준으로 iOS 11 이상 사용자가 97% 입니다. 
+	- 사용안하고 묵혀준 핸드폰이라던지, 테스트 장비나 어느정도 오래된 장비를 포함해서 말이죠.
+	- 이제 iOS 13이 나오는 데.. 이제 iOS 11 이상으로 해도 괜찮치 않을 까요?
+	- 최대한 사용자를 받아들이는 것도 중요하겠지만, 조금 더 개발 품질을 높이고, 유지 보수 공수를 낮출 수 있도록 말이죠..
 
 <details open><summary><b>2019년 점유율</b></summary>
 
 <table>
    <tr>
+   <th>2019년 08월 06일</th>
    <th>2019년 05월 30일</th>
  	<th>2019년 02월 24일</th>
  	<th>2019년 01월 01일</th>
-   <th width="160"> - </th> 
 	<th width="160"> - </th> 
   </tr>
   <tr>
+  	<td><img width="160" src="/Image/AppStoreOSMeasured_20190806.png"></img></td>
 	<td><img width="160" src="/Image/AppStoreOSMeasured_20190530_2.png"></img></td>
  	<td><img width="160" src="/Image/AppStoreOSMeasured_20190224_1.png"></img></td>
    <td><img width="160" src="/Image/AppStoreOSMeasured_20190101_1.png"></td>
-   <td></td>
   	<td></td>
   </tr>
 </table>
