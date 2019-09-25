@@ -213,6 +213,32 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 - 문의해보신 분도 위의 내용으로 답변을 들은 것으로 알고 있습니다.
 - 확인이 필요하시면 고객센터에 문의해보셔도 좋을 것 같습니다. 
 
+#### 애플로 로그인을 하는 것을 꼭 추가해야되나요? 기존에 서드파티 로그인 기능이 있는 데, 넣어야 된다는 것 같더군요. 기능을 추가한다면 언제까지 반드시 추가해야되나요?
+- 추가하셔야 되지만, 현재 운영 중인 앱이니.. 2020년 4월까지는 현행대로 하셔도 괜찮을 것으로 보입니다.
+- [Apple로 로그인에 대한 신규 가이드라인(2019년 09월 12일)](https://developer.apple.com/kr/news/?id=09122019b) 관련 뉴스 글을 보시면 기존 앱은 2020년 4월까지, 신규 앱은 뉴스 글이 올라온 2019년 09월 12일 부터 추가해야되는 상황이라면 추가하셔야 됩니다.
+	
+	```
+	.. 중략 ..
+	오늘부터 App Store에 제출하는 신규 앱은 해당 가이드라인을 따라야 하며, 
+	기존의 앱과 앱 업데이트는 2020년 4월 전까지 해당 가이드라인을 따라야 합니다.
+	.. 중략 ..
+	```
+
+- 애플로 로그인을 구현 안해도 되는 경우 `(애플 로그인 구현 불필요)`
+	- 자체회원 가입만 있는 경우
+	- 교육 또는 기업 계정
+	- 특정 써드파티 소셜 로그인이 필수 인 경우
+- 위의 경우를 제외하고는 로그인 기능이 있다면 애플로 로그인을 함께 구현해야됩니다. `(애플 로그인 구현 필요)`
+	- 자체회원 로그인 + 서드파티 로그인 의 경우
+	- 서드파티 로그인만 있는 경우
+- [App Store 심사 지침 보기(영문)](https://developer.apple.com/app-store/review/guidelines/#sign-in-with-apple)의 `4.8 Sign in with Apple` 에 정보가 있습니다.
+	- Sign in with Apple is not required if:
+		- Your app exclusively uses your company’s own account setup and sign-in systems.
+		- Your app is an education, enterprise, or business app that requires the user to sign in with an existing education or enterprise account.
+		- Your app uses a government or industry-backed citizen identification system or electronic ID to authenticate users.
+		- Your app is a client for a specific third-party service and users are required to sign in to their mail, social media, or other third-party account directly to access their content.
+- 추가로 [Sign in with Apple REST API](https://developer.apple.com/documentation/signinwithapplerestapi) 링크 입니다.
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
