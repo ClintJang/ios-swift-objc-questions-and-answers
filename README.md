@@ -728,6 +728,15 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 	- 이제 iOS 13이 나오는 데.. 이제 iOS 11 이상으로 해도 괜찮치 않을 까요?
 	- 최대한 사용자를 받아들이는 것도 중요하겠지만, 조금 더 개발 품질을 높이고, 유지 보수 공수를 낮출 수 있도록 말이죠..
 
+	<details><summary><b>국민 앱 카카오톡도 iOS는 iOS11 부터 지원합니다.</b> 상세 내용은 펴주세요.</summary>
+	
+	- 종료 일자 : 2019년 09월 17일
+	- 종료 내용 : iOS 10.3.4 이하 버전에 대한 카카오톡 업데이트 지원중단
+	
+	<img width="400" src="/Image/kakao_only_support_ios11.jpeg">
+	
+	</details>
+
 <details open><summary><b>2019년 점유율</b></summary>
 
 <table>
