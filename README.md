@@ -738,6 +738,19 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 	
 	</details>
 
+<details open><summary><b>2020년 점유율</b></summary>
+
+<table>
+  <tr>
+ 	<th>2020년 01월 27일</th>
+  </tr>
+  <tr>
+ 	<td><img width="160" src="/Image/AppStoreOSMeasured_20200127.png"></img></td>
+  </tr>
+</table>
+
+</details>
+
 <details open><summary><b>2019년 점유율</b></summary>
 
 <table>
@@ -770,7 +783,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 </details>
 
-<details open><summary><b>2018년 점유율</b></summary>
+<details><summary><b>2018년 점유율</b></summary>
 
 <table>
   <tr>
