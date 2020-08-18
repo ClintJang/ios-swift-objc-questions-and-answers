@@ -173,6 +173,18 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	- Time-Sensitive Event   
 	- Other
 
+	```
+	긴급은 아무때나 사용하는 것이 아닙니다
+	내 입장이 급한것과 긴급 심사 사유는 완전히 다릅니다.
+	내 입장이 급하다고 막 신청하면, 진짜 해야 할때 묻지마 거절될 수 있습니다.
+	보통 심사받고 배포하는건 모두가 급하기 때문에.. 정말 심각한 사유가 있을 때 사용하시는걸 추천드립니다.
+	크리티컬한 이유로 앱을 사용할 수 없는 상태라서 올리는거 아니면 긴급은 피하시는 것을 추천 드립니다.
+	긴급이라고 해도 심사는 꼼꼼하게 확인 할 것이니 리젝을 당할 수 도 있고, 
+	일반심사도 처리가 빨라지고 있어서 어떨때는 일반이 더 빠를 수도? 있습니다.
+	그리고 애플은 정직하지 않은 개발자와 같이 일하지 않습니다.
+	... 🙇🏻
+	```
+
 #### 검수통과해서 "판매 준비됨"으로 바뀌었는 데, 왜? iOS 앱스토어에서 검색하면 나타나지 않을까요?
 - 개인적인 경험으로 볼 때, 케바케 인 것 같습니다. 1시간도 안되서 나타난적도 있고, 몇시간이 지났는 데, 어떤 단말에서는 나타나지 않은 경우도 있었습니다. 24시간 안에는 모두 나타나는 것 같습니다.
 - [앱스토어 심사지침](https://developer.apple.com/kr/app-store/review/guidelines/) 의 내용 중에 "출시일"로 검색해보세요. 앱이 나타나려면 최대 24시간이 걸릴 수 있다고 합니다. 
@@ -742,12 +754,12 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 <table>
   <tr>
- 	<th>2020년 01월 27일</th>
- 	<th>2020년 06월 17일</th>
+   	<th>2020년 06월 17일<br />(iOS 13+12 : 98%)</th>
+ 	<th>2020년 01월 27일<br />(iOS 13+12 : 94%)</th>
   </tr>
   <tr>
+   	<td><img width="160" src="/Image/AppStoreOSMeasured_20200617.png"></img></td>
  	<td><img width="160" src="/Image/AppStoreOSMeasured_20200127.png"></img></td>
- 	<td><img width="160" src="/Image/AppStoreOSMeasured_20200617.png"></img></td>
   </tr>
 </table>
 
@@ -757,25 +769,15 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 <table>
    <tr>
-   <th>2019년 10월 15일</th>
-   <th>2019년 08월 06일</th>
-   <th>2019년 05월 30일</th>
- 	<th>2019년 02월 24일</th>
- 	<th>2019년 01월 01일</th>
+   <th colspan="2">2019년 10월 15일<br />(iOS 13+12 : 93%)</th>
+   <th>2019년 08월 06일<br />(iOS 12+11 : 97%)</th>
+   <th>2019년 05월 30일<br />(iOS 12+11 : 96%)</th>
+ 	<th>2019년 02월 24일<br />(iOS 12+11 : 95%)</th>
+ 	<th>2019년 01월 01일<br />(iOS 12+11 : 95%)</th>
   </tr>
   <tr>
-   <td>
-   <table>
-   		<tr>
-   			<td>
-   			<img width="160" src="/Image/AppStoreOSMeasured_20191015.png"></img>
-   			</td>
-   			<td>
-   			<img width="160" src="/Image/AppStoreOSMeasured_20191015_ipad.png"></img>
-   			</td>
-   		</tr>
-   	</table>
-   </td>
+   <td><img width="160" src="/Image/AppStoreOSMeasured_20191015.png"></img></td>
+   <td><img width="160" src="/Image/AppStoreOSMeasured_20191015_ipad.png"></img></td>
   	<td><img width="160" src="/Image/AppStoreOSMeasured_20190806.png"></img></td>
 	<td><img width="160" src="/Image/AppStoreOSMeasured_20190530_2.png"></img></td>
  	<td><img width="160" src="/Image/AppStoreOSMeasured_20190224_1.png"></img></td>
@@ -785,15 +787,15 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 </details>
 
-<details><summary><b>2018년 점유율</b></summary>
+<details><summary><b>2018년 점유율</b> (12월 3일, 10월 29일, 10월 10일, 09월 03일, 04월 22일, 접힌 것을 펴주세요.)</summary>
 
 <table>
   <tr>
- 	<th>2018년 12월 03일</th>
-   <th>2018년 10월 29일</th>
-   <th>2018년 10월 10일</th> 
-	<th>2018년 09월 03일</th> 
-	<th>2018년 04월 22일</th>
+ 	<th>2018년 12월 03일<br />(iOS 12+11 : 93%)</th>
+   <th>2018년 10월 29일<br />(iOS 12+11 : 93%)</th>
+   <th>2018년 10월 10일<br />(iOS 12+11 : 93%)</th> 
+	<th>2018년 09월 03일<br />(iOS 11+10 : 95%)</th> 
+	<th>2018년 04월 22일<br />(iOS 11+10 : 95%)</th>
   </tr>
   <tr>
  	<td><img width="160" src="/Image/AppStoreOSMeasured_20181203_1.jpg"></img></td>
@@ -812,9 +814,9 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 <table>
   <tr>
-	<th>2017년 12월 04일</th>
-	<th>2017년 07월 28일</th>
-	<th>2017년 02월 20일</th>
+	<th>2017년 12월 04일<br />(iOS 11+10 : 92%)</th>
+	<th>2017년 07월 28일<br />(iOS 10+ 9 : 97%)</th>
+	<th>2017년 02월 20일<br />(iOS 10+ 9 : 95%)</th>
 	<th>-</th>
 	<th>-</th>
   </tr>
