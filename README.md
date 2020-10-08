@@ -719,6 +719,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 - [RxSwift 왜 사용하면 좋을까요?](https://medium.com/@jang.wangsu/ios-swift-rxswift-%EC%99%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%A2%8B%EC%9D%84%EA%B9%8C%EC%9A%94-5c9995f47bab) : RxSwift 개발을 하면서 개인적인 생각을 작성해보았습니다.
 - [마기님 블로그 RxSwift 1편](https://magi82.github.io/ios-rxswift-01/)을 봐보셔요. 여기 설명도 좋습니다. **계속 연재해주세요.!**
 - 제가 정리한 [RxSwift관련 한국어 동영상 링크](https://github.com/ClintJang/awesome-swift-korean-lecture/blob/master/README.md#rxswift)도 참고하셔도 좋습니다.
+- **[곰튀김님 Youtube](https://www.youtube.com/channel/UCsrPur3UrxuwGmT1Jq6tkQw)가 요즘은 정답인 것 같습니다. 어마어마한 보석 같은 자료를 계속 올려주십니다.**
 
 <br />
 
@@ -736,7 +737,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 - [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
 - 점유율 (매년 9월 중순 즈음, 신규 OS를 업데이트 합니다.)
 - iOS 12때의 마지막 통계정보에서 2019년 8월 6일 기준으로 iOS 11 이상 사용자가 97% 입니다. 
-- iOS 13 반영되고 2020년 6월 17일 기준으로 iPhone iOS 12 이상은 98~9%, iPadOS 98~9% 이군요. 단, 최근 4년 내의 기기 기준이지만..
+- iOS 13 반영되고 2020년 6월 17일 기준으로 iPhone iOS 12 이상은 98%, iPadOS 99% 이군요. 단, 최근 4년 내의 기기 기준이지만..
 	- 사용안하고 묵혀준 핸드폰이라던지, 테스트 장비나 어느정도 오래된 장비를 고려할 필요가 있을까요??..
 	- 이제 iOS 14가 나왔는 데.. 이제는 최소한 iOS 12 이상으로 해도 괜찮치 않을 까요?
 	- 최대한 사용자를 받아들이는 것도 중요하겠지만, 조금 더 개발 품질을 높이고, 유지 보수 공수를 낮출 수 있도록 말이죠..
