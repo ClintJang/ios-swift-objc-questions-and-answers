@@ -253,6 +253,11 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 		- Your app is a client for a specific third-party service and users are required to sign in to their mail, social media, or other third-party account directly to access their content.
 - 추가로 [Sign in with Apple REST API](https://developer.apple.com/documentation/signinwithapplerestapi) 링크 입니다.
 
+#### 앱스토어에 앱이 업로드/판매 중인 상황에서 개발자 계정 설정에 문제가 생기면, 앱스토어에서 받은 앱에 영향을 주는 부분이 있을까요?
+- 앱스토어 올라가 있는 앱을 다운 받은 것이라면 개발자 계정에 영향을 받지 않습니다.
+- 1년에 한번 결제를 하는 부분을 연장하지 않으면 앱 스토어 에서 노출이 되지 않게 되고, 다시 결제를 하면 앱스토어에서 해당 앱이 다시 노출이 되게 되는 사항은 있습니다.
+- 자세한 사항은 여기 링크를 참조해 주세요 : https://developer.apple.com/kr/support/certificates/ 
+
 <br />
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
