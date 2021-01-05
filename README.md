@@ -764,10 +764,12 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 <table>
   <tr>
+   	<th>2020년 12월 15일<br />(iOS 14+13 : 98%)</th>
    	<th>2020년 06월 17일<br />(iOS 13+12 : 98%)</th>
  	<th>2020년 01월 27일<br />(iOS 13+12 : 94%)</th>
   </tr>
   <tr>
+   	<td><img width="160" src="/Image/AppStoreOSMeasured_20201215.png"></img></td>
    	<td><img width="160" src="/Image/AppStoreOSMeasured_20200617.png"></img></td>
  	<td><img width="160" src="/Image/AppStoreOSMeasured_20200127.png"></img></td>
   </tr>
