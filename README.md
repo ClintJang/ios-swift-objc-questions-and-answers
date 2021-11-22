@@ -752,7 +752,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 	
 	<details><summary><b>국민 앱 카카오톡도 iOS는 iOS13 부터 지원합니다. (iOS 12 지원 종료 일자 : 2021년 11월 23일)</b> 상세 내용은 펴주세요.</summary>
 	
-	- 종료 일자 : 2020년 11월 23일
+	- 종료 일자 : 2021년 11월 23일
 	- 종료 내용 : iOS 12.5.5, Watch OS 6.3 이하 버전에 대한 카카오톡 업데이트 지원	
 	<img width="400" src="/Image/kakao_only_support_ios13.jpeg">
 	
