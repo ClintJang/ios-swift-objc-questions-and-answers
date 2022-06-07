@@ -742,7 +742,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 #### iOS 배포 최소 버전에 대해 고민중입니다. iOS OS버전을 사용하는 통계 정보를 알 수 있는 정보나 링크가 있을까요?
 - [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
 - 점유율 (매년 9월 중순 즈음, 신규 OS를 업데이트 합니다.)
-- 2022년 1월 11일 기준으로 iOS 14+15는!! 헛!!!! 😱 98% 라니.. (역시 최근 4년 내의 기기 기준)
+- 2022년 5월 31일 기준으로 iOS 14+15는!! 헛!!!! 😱 99% 라니.. iPad는 97% 네요! (역시 최근 4년 내의 기기 기준)
 	- 사용안하고 묵혀준 핸드폰이라던지, 테스트 장비나 어느정도 오래된 장비를 고려할 필요가 있을까요??..
 	- 이제 iOS 15 다들 쓰시죠?.. 이제는 최소한 iOS 13 Or 14 이상으로 해도 괜찮치 않을 까요?
 	- 2022년! 올해는 iOS 16이 나오겠군요...
@@ -779,9 +779,11 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 <table>
   <tr>
    	<th>2022년 1월 11일<br />(iOS 15 : 72%, iOS 14 : 26%)</th>
+   	<th>2022년 5월 31일<br />(iOS 15 : 89%, iOS 14 : 10%)</th>
   </tr>
   <tr>
-   	<td><img width="160" src="/Image/AppStoreOSMeasured_20220111.jpeg"></img></td>
+   	<td align="center"><img width="160" src="/Image/AppStoreOSMeasured_20220111.png"></img></td>
+   	<td align="center"><img width="160" src="/Image/AppStoreOSMeasured_20220531.png"></img></td>
   </tr>
 </table>
 
