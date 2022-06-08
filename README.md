@@ -107,7 +107,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	- 스토리 진행이면 : **`꼼꼼한재은씨의 스위프트 실전편`**, **[`Do it! 스위프트로 아이폰 앱 만들기 (입문) [개정 2판]`](https://github.com/doitswift)** 이 좋다는 말은 들었었고, 요즘에는 다양한 책들이 있는 것 같습니다. 알게 되는 책들이 있으면 업데이트 하겠습니다. 
 
 #### Swift 개발을 처음 시작할 때 공부하기 좋은 링크 가 있을 까요?
-- 개인적으로 [야곰님의 유투브](https://www.youtube.com/channel/UCkwWWEv3C-3ToeO57r5LCHQ?app=desktop), &nbsp; [야곰님의 동영상 강의](https://www.inflearn.com/course/ios-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/), &nbsp; [인프런 스탠퍼드 강의](https://www.inflearn.com/course/stanford-ios-%ED%95%9C%EA%B8%80%EC%9E%90%EB%A7%89-%EA%B0%95%EC%9D%98/), &nbsp; [프로그래머스의 iOS swift입문](https://programmers.co.kr/learn/courses/4)이 좋다고 생각합니다.
+- 개인적으로 [야곰님의 유투브](https://www.youtube.com/channel/UCkwWWEv3C-3ToeO57r5LCHQ?app=desktop), &nbsp; [야곰님의 동영상 강의](https://www.inflearn.com/course/ios-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/), &nbsp; [인프런 스탠퍼드 강의](https://www.inflearn.com/course/stanford-ios-%ED%95%9C%EA%B8%80%EC%9E%90%EB%A7%89-%EA%B0%95%EC%9D%98/)이 좋다고 생각합니다.
 - [swift 한국어 동영상 강의 링크들 모음](https://github.com/ClintJang/awesome-swift-korean-lecture/blob/master/README.md) 은 개인적으로 모아둔 링크입니다.
 - [giftbot님의 Links For iOS Developer](https://github.com/giftbott/iOSDevLinks), iOS 개발자를 위한 링크모음 입니다.
 
@@ -117,7 +117,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 #### 처음 개발에 입문 했는 데, 좋은 커뮤니티가 있을까요?
 - 스위프트 관련 커뮤니티 그룹은 [스위프트 한국 개발자 그룹(페이스북)](https://www.facebook.com/groups/swiftkor/), [맥부기(네이버 카페)](https://cafe.naver.com/mcbugi) 두가지 정도를 알고 있습니다.
-- 오픈된 대화방은 [카카오톡 iOS 오픈채팅방(iOS Developers KR)](https://open.kakao.com/o/gyLape), [Slack swiftkorea](http://slack.swiftkorea.org/), [카카오톡 RxSwift 오픈채팅방](https://open.kakao.com/o/gl2YZjq) 정도가 있는 것 같습니다. 
+- 오픈된 대화방은 [카카오톡 iOS 오픈채팅방(iOS Developers KR)](https://open.kakao.com/o/gyLape), [카카오톡 RxSwift 오픈채팅방](https://open.kakao.com/o/gl2YZjq) 정도가 있는 것 같습니다. 
 - iOS 개발자는 소수이니 커뮤니티에서 함께 개발을 진행하며, 어려운 내용은 공유하고 도움도 주고 받고 하면 개발일을 더 즐겁게 할 수 있는 것 같습니다.
 
 #### ios 공부할만한 깃헙 프로젝트 혹시 추천해주실 수 있나요? 독학하는데 가이드가 없으니 힘드네용 알려주시면 감사하겠습니다
@@ -134,7 +134,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 ### **`2. AppStore`**
 
 #### 애플 개발자 전화 지원은 몇번인가요? 전화가 가능한가요?
-- 제가 알기로는 080-860-9797 입니다. [참고한 링크](http://www.zosolution.com/69), 현재는 공식적으로는 온라인으로 요청하면 전화 연결을 해준다고 합니다. 아래 전화 지원 링크를 눌러서 진행해 보세요.
+- 제가 알기로는 080-860-9797 입니다. 현재는 공식적으로는 온라인으로 요청하면 전화 연결을 해준다고 합니다. 아래 전화 지원 링크를 눌러서 진행해 보세요.
 - [애플 전 세계 전화지원 링크](https://developer.apple.com/contact/phone/kr/) : 온라인으로 요청하세요.
 
 	```
@@ -147,7 +147,7 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 	```
 
 #### AppStore에 검수 신청하면 얼마나 걸리나요?
-- [App review Times](http://appreviewtimes.com/) : 현재 검수 시간이 평균적으로 얼마나 걸리는 지 정보를 제공해줘서 대략적인 판단을 할 수 있게 해주는 사이트 입니다.
+- [App Store and TestFlight review times - Runway](https://www.runway.team/appreviewtimes) : 현재 검수 시간이 평균적으로 얼마나 걸리는 지 정보를 제공해줘서 대략적인 판단을 할 수 있게 해주는 사이트 입니다.
 	- (간헐적으로 사이트 접속이 안될 때도 있었습니다. 그때는 나중에 다시 시도해봐 주세요.😀)
 - 보통 케바케라서 정확하지 않습니다. 평균적인 시간보다 오래 걸린다면, 검수 진행에 대해 문의를 진행해 해보시면 될 것 같습니다. 
 
@@ -188,12 +188,12 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 #### 검수통과해서 "판매 준비됨"으로 바뀌었는 데, 왜? iOS 앱스토어에서 검색하면 나타나지 않을까요?
 - 개인적인 경험으로 볼 때, 케바케 인 것 같습니다. 1시간도 안되서 나타난적도 있고, 몇시간이 지났는 데, 어떤 단말에서는 나타나지 않은 경우도 있었습니다. 24시간 안에는 모두 나타나는 것 같습니다.
-- [앱스토어 심사지침](https://developer.apple.com/kr/app-store/review/guidelines/) 의 내용 중에 "출시일"로 검색해보세요. 앱이 나타나려면 최대 24시간이 걸릴 수 있다고 합니다. 
+- [앱스토어 심사지침](https://developer.apple.com/kr/app-store/review/guidelines/) 의 내용 중에 "출시 날짜"로 검색해보세요. 앱이 나타나려면 최대 24시간이 걸릴 수 있다고 합니다. 
 
 	```
-	출시일:  .. (중략) .. 
+	출시 날짜:  .. (중략) .. 
 	또한 선택한 모든 지역의 App Store에 앱이 나타나려면 
-	최대 24시간이 소요될 수 있음에 유의하십시오.
+	최대 24시간이 소요될 수 있습니다.
 	```
 	
 #### appstore에서 앱 다운로드 할때 단말별로 앱사이즈가 다른가요?? 이미지 해상도라던지.. 차이때문에, 만약에 다르다면 영향 받는 부분이 어디일까요?
@@ -211,11 +211,9 @@ iOS (swift, objc)개발을 하면서 알게된 질문과 답변 내용을 모아
 
 	```
 	5.1.1 데이터 수집 및 보관
-	(i) 개인정보 취급방침: 모든 앱에는 App Store Connect 메타데이터 영역과 앱 내부에 쉽게 볼 수 있는 개인정보 취급방침 관련 링크가 포함되어야 합니다. 개인정보 취급방침은 분명하고 명시적으로 다음 요건을 준수해야 합니다.
+	(i) 개인정보 처리방침: 모든 앱에는 App Store Connect 메타데이터 영역과 앱 내부에 쉽게 볼 수 있는 개인정보 처리방침 관련 링크가 포함되어야 합니다. 개인정보 처리방침은 분명하고 명시적으로 다음 요건을 준수해야 합니다.
 	앱과 서비스가 수집하는 대상 정보(있는 경우), 정보 수집 방법, 수집한 정보의 사용 목적을 정의해야 합니다.
 	```
-
-- **☆** [심사지침 팁](http://13.125.229.142/?p=1213)에 쉽게 작성하는법이 적혀있습니다.
 
 #### 스토어 스크린샷에 디바이스를 같이 보여주소 싶은데 가이드라인 같은걸 확인 할 수 있는데가 있을까요?
 - 앱 미리보기 및 스크린샷 이미지 업로드 하는 부분에 "?" 아이콘을 클릭하시면 가이드 링크가 나타납니다.
@@ -452,7 +450,15 @@ Choose Edit -> Automatically Sync Pasteboard to turn on and turn off
 	앱을 사용하는 동안 앱에서 소셜 네트워크에 직접 연결하려는 목적으로만 자격 증명이나 토큰을 사용해야 합니다.
 	```
 
-<br />
+#### 계정 탈퇴 (삭제) 기능이 없는 것도 리젝 사유인가요?
+- 2022년 06월 30일부터 계정 생성을 지원하는 앱은 계정 삭제 기능을 제공해야합니다.
+-  2022년 05월 24일에 Apple Developer에 등록된 [6월 30일부터 시작되는 계정 삭제 요구 사항](https://developer.apple.com/kr/news/?id=12m75xbj)을 살펴보시기 바랍니다.
+-  이 내용은 [Apple Store 심사 지침 5.1.1(v)](https://developer.apple.com/kr/app-store/review/guidelines/#5.1.1v)에 나타나 있습니다.
+  ```
+  (v) 계정 로그인: 계정이 반드시 필요한 주요 기능이 포함되지 않은 앱인 경우에는 로그인하지 않아도 사용할 수 있도록 합니다. 앱에서 계정 생성을 지원하는 경우 앱 내에서 계정 삭제 기능도 제공해야 합니다.
+  ```
+- 애플의 계정 삭제 지침은 [앱에서 계정 삭제 기능 제공하기](https://developer.apple.com/kr/support/offering-account-deletion-in-your-app/)를 참고하세요.
+
 
 [Top으로 가기](https://github.com/ClintJang/ios-swift-objc-questions-and-answers/blob/master/README.md#%EB%AA%A9%EC%B0%A8)
 
@@ -682,7 +688,6 @@ For Voice over Internet Protocol (VoIP) notifications, the maximum size is 5KB (
 - 제가 알고있는 셈플 링크입니다. 좋은 링크 알게 되는 데로 업데이트 더 할께요.
 - [giftbot 님의 iOS-Architecture-Sample](https://github.com/giftbott/iOS-Architecture-Sample) : MVC, MVP, MVVM, VIPER 👍
 - [ReactorKit](https://github.com/ReactorKit/ReactorKit) : RxSwift + MVVM
-- [iOS-Viper-Architecture](https://github.com/kor45cw/iOS-Viper-Architecture) : VIPER
 - [마기님의 MVP, RxTodo](https://github.com/magi82/IOS_MVP_Sample_RxTodo) : MVP + RxTodo
 - [마기님의 MVVM](https://github.com/magi82/RxMVVMExample)
 - [저의 MVVM 샘플](https://github.com/ClintJang/sample-swift-mvvm) : 언젠가 완성을..
@@ -717,7 +722,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 ### **`12. RxSwift`** 
 #### RxSwift가 무엇인가요?
 - 리엑티브 (Reactive eXtension) 라고 부르지요. Reactive는 같은 말로 알엑스(Rx) 라고 부릅니다. 리엑티브 페러다임은 마이크로소프트가 창안한 개념으로 데이터의 흐름에 따른 변화를 만드는 비동기적인 프로그래밍 패러다임을 구체화 시킨 swift용 라이브러리라고 생각하시면 됩니다.
-- [http://reactivex.io/documentation/ko/observable.html](reactivex.io)에서 한국어가 지원되는 페이지가 있어서 처음에는 사이트를 이용하셔서 의미를 알아보셔도 좋습니다.
+- reactivex.io에서 [한국어가 지원되는 페이지](https://reactivex.io/documentation/ko/observable.html)가 있어서 처음에는 사이트를 이용하셔서 의미를 알아보셔도 좋습니다.
 - RxSwift를 왜 하는 지 궁금하시면 곰튀김님 동영상 설명을 들으면 이해가 쏙쏙 됩니다. 정말 최고에요. 한번 보세요. 총 2편입니다. 1편부터 고고
 	- 1편, [곰튀김님 - Functional Reactive Programming 패러다임](https://www.youtube.com/watch?v=cXi_CmZuBgg&feature=youtu.be)
 	- 2편, [곰튀김님 - Functional Programming이 뭐하는 건가요? ](https://www.youtube.com/watch?v=HZkqMiwT-5A&feature=youtu.be)
@@ -742,7 +747,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 #### iOS 배포 최소 버전에 대해 고민중입니다. iOS OS버전을 사용하는 통계 정보를 알 수 있는 정보나 링크가 있을까요?
 - [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
 - 점유율 (매년 9월 중순 즈음, 신규 OS를 업데이트 합니다.)
-- 2022년 1월 11일 기준으로 iOS 14+15는!! 헛!!!! 😱 98% 라니.. (역시 최근 4년 내의 기기 기준)
+- 2022년 5월 31일 기준으로 iOS 14+15는!! 헛!!!! 😱 99% 라니.. iPad는 97% 네요! (역시 최근 4년 내의 기기 기준)
 	- 사용안하고 묵혀준 핸드폰이라던지, 테스트 장비나 어느정도 오래된 장비를 고려할 필요가 있을까요??..
 	- 이제 iOS 15 다들 쓰시죠?.. 이제는 최소한 iOS 13 Or 14 이상으로 해도 괜찮치 않을 까요?
 	- 2022년! 올해는 iOS 16이 나오겠군요...
@@ -779,9 +784,11 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 <table>
   <tr>
    	<th>2022년 1월 11일<br />(iOS 15 : 72%, iOS 14 : 26%)</th>
+   	<th>2022년 5월 31일<br />(iOS 15 : 89%, iOS 14 : 10%)</th>
   </tr>
   <tr>
-   	<td><img width="160" src="/Image/AppStoreOSMeasured_20220111.jpeg"></img></td>
+   	<td align="center"><img width="160" src="/Image/AppStoreOSMeasured_20220111.png"></img></td>
+   	<td align="center"><img width="160" src="/Image/AppStoreOSMeasured_20220531.png"></img></td>
   </tr>
 </table>
 
