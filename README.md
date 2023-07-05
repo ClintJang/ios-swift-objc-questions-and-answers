@@ -743,16 +743,26 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 #### 애플 사이트나 시스템 운영 상태의 에러 유무는 어떻게 알 수가 있나요?
 - 여기 링크에 들어가보시면 됩니다. 
 - [System Status 링크](https://www.apple.com/support/systemstatus/)
+- [Developer System Status](https://developer.apple.com/system-status/)
+- [Contact Apple Support](https://support.apple.com/contact)
 
 #### iOS 배포 최소 버전에 대해 고민중입니다. iOS OS버전을 사용하는 통계 정보를 알 수 있는 정보나 링크가 있을까요?
 - [애플 공식 제공 링크](https://developer.apple.com/support/app-store/)
 - 점유율 (매년 9월 중순 즈음, 신규 OS를 업데이트 합니다.)
-- 2022년 5월 31일 기준으로 iOS 14+15는!! 헛!!!! 😱 99% 라니.. iPad는 97% 네요! (역시 최근 4년 내의 기기 기준)
+- 2023년 5월 30일 기준으로 iOS 15+16는!! 헛!!!! 😱 98% (iOS 16은 90%) 라니.. iPad는 94% 네요! (역시 최근 4년 내의 기기 기준)
 	- 사용안하고 묵혀준 핸드폰이라던지, 테스트 장비나 어느정도 오래된 장비를 고려할 필요가 있을까요??..
-	- 이제 iOS 15 다들 쓰시죠?.. 이제는 최소한 iOS 13 Or 14 이상으로 해도 괜찮치 않을 까요?
-	- 2022년! 올해는 iOS 16이 나오겠군요...
+	- 이제 iOS 16 다들 쓰시죠?.. 이제는 최소한 iOS 14 Or 15 이상으로 해도 괜찮치 않을 까요?
+	- 2023년! 올해는 iOS 17이 나오겠군요...
 	- 최대한 사용자를 받아들이는 것도 중요하겠지만, 조금 더 개발 품질을 높이고, 유지 보수 공수를 낮출 수 있는 것도 중요한 부분입니다...
 	- 카카오톡도 최소 지원 버전이 높습니다.!!
+	
+	<details><summary><b>국민 앱 카카오톡도 iOS는 iOS14 부터 지원합니다. (iOS 13 지원 종료 일자 : 2022년 11월 초)</b> 상세 내용은 펴주세요.</summary>
+	
+	- 종료 일자 : 2022년 11월 초
+	- 종료 내용 : iOS 13.7 이하 버전에 대한 카카오톡 업데이트 지원	
+	<img width="400" src="/Image/kakao_only_support_ios14.jpeg">
+	
+	</details>
 	
 	<details><summary><b>국민 앱 카카오톡도 iOS는 iOS13 부터 지원합니다. (iOS 12 지원 종료 일자 : 2021년 11월 23일)</b> 상세 내용은 펴주세요.</summary>
 	
@@ -778,6 +788,19 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 	<img width="400" src="/Image/kakao_only_support_ios11.jpeg">
 	
 	</details>
+
+<details open><summary><b>2023년 점유율</b></summary>
+
+<table>
+  <tr>
+   	<th>2023년 5월 30일<br />(iOS 16 : 90%, iOS 15 : 8%)</th>
+  </tr>
+  <tr>
+   	<td align="center"><img width="160" src="/Image/AppStoreOSMeasured_20230530.png"></img></td>
+  </tr>
+</table>
+
+</details>
 
 <details open><summary><b>2022년 점유율</b></summary>
 
@@ -807,7 +830,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 </details>
 
-<details open><summary><b>2020년 점유율</b></summary>
+<details><summary><b>2020년 점유율</b> (12월 15일, 06월 17일, 01월 27일 접힌 것을 펴주세요.)</summary>
 
 <table>
   <tr>
@@ -895,7 +918,7 @@ View와 Controller가 라이브사이클에 강하게 연결되어있고, 더불
 
 - 최신 OS가 높은 점유율을 차지 하고 있고, 이전 OS까지 합하면 90%가 넘을 것 입니다. 그래서 보통 반영한다면, 현재와 이전 정보까지를 포함해서 배포하면 좋을 것 같습니다.
 - iOS 사용자는 업데이트를 빠르게 수용합니다. Earlier 는 테스트 장비나 오래되서 방치된 단말이 많이 포함되어있을 것입니다. 빠르게 업데이트해서 사용하니 최신 OS에 근접한 OS를 하셔도 괜찮을 것입니다. 그래야 유지보수 이슈에 들어가는 비용도 줄어들고, 신기술을 적용하기 좋습니다. 그만큼 사용시 문제점(버그)도 줄어들죠.
-- [iOS 10, 11, 12, 13, 14에서 호환되는 기기.. 에 대한 메모 내용입니다.](https://medium.com/@jang.wangsu/ios-ios-10-11-12-13%EC%97%90%EC%84%9C-%ED%98%B8%ED%99%98%EB%90%98%EB%8A%94-%EA%B8%B0%EA%B8%B0-cc2a65ca577e) : 판단에 참고가 되실 것 같아요.
+- [iOS 10, 11, 12, 13, 14, 15, 16, 17에서 호환되는 기기.. 에 대한 메모 내용입니다.](https://medium.com/@jang.wangsu/ios-ios-10-11-12-13%EC%97%90%EC%84%9C-%ED%98%B8%ED%99%98%EB%90%98%EB%8A%94-%EA%B8%B0%EA%B8%B0-cc2a65ca577e) : 판단에 참고가 되실 것 같아요.
 
 
 ## 이전 OS,Xcode 나 최신 OS, Xcode를 받으려면 어디서 받을 수 있을까요?
